@@ -1,0 +1,296 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Built-By: hudsonBuild
+Bundle-SymbolicName: org.eclipse.zest.layouts;singleton:=true
+Require-Bundle: org.eclipse.swt;visibility:=reexport,org.eclipse.core.
+ runtime,org.eclipse.jface,org.eclipse.draw2d
+Export-Package: org.eclipse.zest.layouts,org.eclipse.zest.layouts.algo
+ rithms,org.eclipse.zest.layouts.algorithms.internal,org.eclipse.zest.
+ layouts.constraints,org.eclipse.zest.layouts.dataStructures,org.eclip
+ se.zest.layouts.exampleStructures,org.eclipse.zest.layouts.exampleUse
+ s,org.eclipse.zest.layouts.progress
+Bundle-Version: 1.1.0.201206112118
+Build-Jdk: 1.6.0_21
+Bundle-Vendor: %Plugin.providerName
+Bundle-Name: %Plugin.name
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/zest/layouts/constraints/LayoutConstraint.class
+SHA1-Digest: 1Z3704yUwBi/pk7fq+0eAtdLznY=
+
+Name: org/eclipse/zest/layouts/algorithms/HorizontalShift$2.class
+SHA1-Digest: gU6xXeVAUaObIxOFGFFf5M7w48U=
+
+Name: org/eclipse/zest/layouts/constraints/BasicEdgeConstraints.class
+SHA1-Digest: KCu3cdDycpMFSZHoldhAp4o1dFU=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample.class
+SHA1-Digest: ynn3S2tzOE0a5yHQYX5RBmMpo0o=
+
+Name: org/eclipse/zest/layouts/algorithms/ContinuousLayoutAlgorithm.cl
+ ass
+SHA1-Digest: WMRYYLHg4/fI1H8tkXz9SKMGQDI=
+
+Name: org/eclipse/zest/layouts/exampleStructures/SimpleGraph.class
+SHA1-Digest: qvAnfp6FbEi9PqTCGkdrBHh9HsY=
+
+Name: org/eclipse/zest/layouts/LayoutEntity.class
+SHA1-Digest: y8d934IRh1bQ7DGHRZqit1Yly9g=
+
+Name: org/eclipse/zest/layouts/algorithms/DirectedGraphLayoutAlgorithm
+ $ExtendedDirectedGraphLayout.class
+SHA1-Digest: vjNG3dm6LdZL1v20BxeFA18tB34=
+
+Name: org/eclipse/zest/layouts/dataStructures/BendPoint.class
+SHA1-Digest: /phb0Z3EtnkEvtiKB1QNIzLgmEA=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$1.class
+SHA1-Digest: mmwTDmF9O9XL0Fnc239/ncC/OUQ=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$3.class
+SHA1-Digest: 9hN+g7ccR4QiRB9qkwRuHHWZspw=
+
+Name: org/eclipse/zest/layouts/algorithms/HorizontalLayoutAlgorithm.cl
+ ass
+SHA1-Digest: 3JjtdX1QHVcfjUJT7QcVj2fMyLo=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$5.class
+SHA1-Digest: VeTfUZvCLr92CmlNqhO3Qd5TTIA=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample.class
+SHA1-Digest: zLuJnfc31NdicqlzMh/ImVtp9RQ=
+
+Name: org/eclipse/zest/layouts/algorithms/AbstractLayoutAlgorithm.clas
+ s
+SHA1-Digest: igpBV7VcxkKFAAwd/4gafGL/0lM=
+
+Name: org/eclipse/zest/layouts/algorithms/HorizontalTreeLayoutAlgorith
+ m.class
+SHA1-Digest: aE8pMuUvYfIiwrTwsGkDG4iYAak=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$7.class
+SHA1-Digest: WRCaBX2W98vToFPVeHABFOsF824=
+
+Name: org/eclipse/zest/layouts/Filter.class
+SHA1-Digest: ucloVYIDN80Zs/AXesPjJeqSNP0=
+
+Name: org/eclipse/zest/layouts/dataStructures/InternalNode.class
+SHA1-Digest: W3wAdOP0/iY/iD3ppPOs5Arj99U=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$9.class
+SHA1-Digest: tNUQD/2aqHeahvW3g4Q0OSoUk4o=
+
+Name: org/eclipse/zest/layouts/algorithms/TreeLayoutAlgorithm.class
+SHA1-Digest: /CGZCdV2PkwowtcUCupOJid99hI=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$MainPane
+ l.class
+SHA1-Digest: uLijuY61/PKL9O0V73ABKy2udHI=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$11.class
+SHA1-Digest: uulUHZ19LfpeedX62fPraz/8m2E=
+
+Name: org/eclipse/zest/layouts/algorithms/internal/DynamicScreen$XComp
+ arator.class
+SHA1-Digest: wx2fN/9Rsb4vMt8Ne5cXlBTbNDY=
+
+Name: org/eclipse/zest/layouts/LayoutRelationship.class
+SHA1-Digest: r0YYEWqRlmCnhY9sRPKweT0v1IY=
+
+Name: org/eclipse/zest/layouts/algorithms/internal/DynamicScreen$YComp
+ arator.class
+SHA1-Digest: Rq+KDQknxikk9nOl5I2CuPG3vZg=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: META-INF/maven/org.eclipse.zest.plugins/org.eclipse.zest.layouts
+ /pom.properties
+SHA1-Digest: YrJ1+1AgG8dQJ4T6FsABjy9BhWU=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$1.class
+SHA1-Digest: gAbQ1EQ/0EdUfteywDVgyaCyG1U=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$3.class
+SHA1-Digest: 3G10iNJeW+DkWBzm1b+cER9Wa8w=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$5.class
+SHA1-Digest: spkzSXPnb4vw1m4UrtGjCyvMEQc=
+
+Name: org/eclipse/zest/layouts/dataStructures/DisplayIndependentDimens
+ ion.class
+SHA1-Digest: y8IgZBx9w/IGn1HUiwlEIhyMz/0=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$7.class
+SHA1-Digest: nkeAQI5zus91yFWrFmufD4ZMrS4=
+
+Name: org/eclipse/zest/layouts/progress/ProgressEvent.class
+SHA1-Digest: qLg7AYqGu6x7NEb/+cy+C9weuvI=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$9.class
+SHA1-Digest: 5qeD7SxVIp6GPy6ydogqVFgzy80=
+
+Name: org/eclipse/zest/layouts/exampleStructures/SimpleFilter.class
+SHA1-Digest: AgZ/GJEH50qNsJNQFUZZ20e3fP0=
+
+Name: org/eclipse/zest/layouts/exampleStructures/SimpleRelationship.cl
+ ass
+SHA1-Digest: bD0kq7gWa/vwXUYJqTw21jss098=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$10.class
+SHA1-Digest: uFEdDBGGBq42a2Jy3hAraSsE904=
+
+Name: org/eclipse/zest/layouts/algorithms/HorizontalShift.class
+SHA1-Digest: XAju+G3N5cNrOK4cjUOYJDbjZTc=
+
+Name: org/eclipse/zest/layouts/algorithms/AbstractLayoutAlgorithm$Inte
+ rnalComparator.class
+SHA1-Digest: eVjI+6go020KyBR9MTW1A49CQMo=
+
+Name: org/eclipse/zest/layouts/algorithms/internal/CycleChecker.class
+SHA1-Digest: /CmDfd4q1WnkcORJHBJI1Ef7wzg=
+
+Name: org/eclipse/zest/layouts/Stoppable.class
+SHA1-Digest: k3VkIKIceAG23PYY/S9qxdJEQkg=
+
+Name: org/eclipse/zest/layouts/LayoutItem.class
+SHA1-Digest: NhqIPKOJsOB26b1+JWg0lb/r7bY=
+
+Name: org/eclipse/zest/layouts/algorithms/HorizontalShift$1.class
+SHA1-Digest: uA4B3/R7E53CyOXZpzuCyWIF+RM=
+
+Name: org/eclipse/zest/layouts/LayoutBendPoint.class
+SHA1-Digest: kempFlRk2fqiKefIpQj+74pbMwo=
+
+Name: org/eclipse/zest/layouts/algorithms/VerticalLayoutAlgorithm.clas
+ s
+SHA1-Digest: wKdngN8qxcaMQuedVy0s9RYCvPo=
+
+Name: META-INF/maven/org.eclipse.zest.plugins/org.eclipse.zest.layouts
+ /pom.xml
+SHA1-Digest: jVptleYImlZ6mTI9xGDVEY/259g=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$7$progress
+ Sync.class
+SHA1-Digest: qZD6IvhG5ErXIKewA5kVmfPnPes=
+
+Name: org/eclipse/zest/layouts/exampleStructures/SimpleNode$UniqueComp
+ are.class
+SHA1-Digest: Nbr+mLc2Sr54dLb1e59QONjAE0Q=
+
+Name: org/eclipse/zest/layouts/constraints/BasicEntityConstraint.class
+SHA1-Digest: /9UVGdQEI7vdmOR9TQBoq+EO/JU=
+
+Name: org/eclipse/zest/layouts/LayoutStyles.class
+SHA1-Digest: Atsr3uvkiJgBnA1VNzf2oZsbHRU=
+
+Name: org/eclipse/zest/layouts/algorithms/SpringLayoutAlgorithm.class
+SHA1-Digest: 3L69cLFx5Q8XAr3bRdPckp4V/lY=
+
+Name: plugin.properties
+SHA1-Digest: 1YqsgZYUcfX68iv8F+t01C7iZBI=
+
+Name: org/eclipse/zest/layouts/dataStructures/InternalRelationship.cla
+ ss
+SHA1-Digest: ynvEe1jB4sPhCvaF9saEGFLukXA=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$2.class
+SHA1-Digest: uggY4TtHQE4Qy3WDA68ywbXt9B0=
+
+Name: org/eclipse/zest/layouts/dataStructures/DisplayIndependentPoint.
+ class
+SHA1-Digest: kLzvNoL5ebI/SxBoSoCXub+502c=
+
+Name: org/eclipse/zest/layouts/InvalidLayoutConfiguration.class
+SHA1-Digest: FeYZ4UpKZpOxqrYIK7vR1iXmO3Y=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$4.class
+SHA1-Digest: 5OmI+hZXtctHK5iswxTEQKllFXI=
+
+Name: org/eclipse/zest/layouts/constraints/LabelLayoutConstraint.class
+SHA1-Digest: ILxY1Ai7eYomU3r5XQkqYodS5Ow=
+
+Name: org/eclipse/zest/layouts/progress/ProgressListener.class
+SHA1-Digest: yV/u3bUm47ps64kD+CoAebTaDu4=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$6.class
+SHA1-Digest: vFLzZ6qNLkynGhjqnrhPrc4Y/+E=
+
+Name: org/eclipse/zest/layouts/LayoutAlgorithm.class
+SHA1-Digest: yFcZtBNi73CWvaZ0pbrlNSjxD74=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$8.class
+SHA1-Digest: nydFhogc/QZ2IWPP6awZFmcjc0U=
+
+Name: org/eclipse/zest/layouts/algorithms/CompositeLayoutAlgorithm.cla
+ ss
+SHA1-Digest: H2WA5KTgyiJsZlm/O4zLgfvtsuc=
+
+Name: org/eclipse/zest/layouts/algorithms/DirectedGraphLayoutAlgorithm
+ .class
+SHA1-Digest: FnNBn+BcpYr4XTfPL061mbjMIpQ=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$10.class
+SHA1-Digest: AlfCrVlOqqVZ8T2vS6R/oUSBlNs=
+
+Name: org/eclipse/zest/layouts/NestedLayoutEntity.class
+SHA1-Digest: wa9Fzqmyyst/I24CpCIbK1zD46E=
+
+Name: org/eclipse/zest/layouts/algorithms/AbstractLayoutAlgorithm$1.cl
+ ass
+SHA1-Digest: pljPsE2NY6pxNAujw5HnOQ16vbw=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$2.class
+SHA1-Digest: 8/G3oGzNVv29YrIRFVCB0aJc3oU=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$4.class
+SHA1-Digest: OXTqnZX7hdidtCpZnh4WF24HMv0=
+
+Name: org/eclipse/zest/layouts/LayoutIterationEvent.class
+SHA1-Digest: j/rS4FOtCHm3fUUe9+K9/aNi3jE=
+
+Name: org/eclipse/zest/layouts/algorithms/TreeLayoutAlgorithm$1.class
+SHA1-Digest: h2VSuDc0da5HC0Yzhw2pwrDbAbU=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$6.class
+SHA1-Digest: ULf33rXOgn1/pU2P3yGPGaCy/GA=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSwingExample$8.class
+SHA1-Digest: RsTFtxyIQsY15vLElcalPDYcAXg=
+
+Name: about.html
+SHA1-Digest: 03p/z7qic+WDIYLMsdDK0skkYDI=
+
+Name: org/eclipse/zest/layouts/dataStructures/DisplayIndependentRectan
+ gle.class
+SHA1-Digest: wKz+AoxkNnSL/Ua5ZAu941+ejrE=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$11.class
+SHA1-Digest: X31GIKmbUcGbVCK7oqwNhXtfgMQ=
+
+Name: org/eclipse/zest/layouts/algorithms/GridLayoutAlgorithm.class
+SHA1-Digest: u/c1iHsASlzjKK6TM6UAzjc9zGA=
+
+Name: org/eclipse/zest/layouts/exampleUses/SimpleSWTExample$GraphPaint
+ Listener.class
+SHA1-Digest: YSfPoN7/+iEn7dFa5+SnR3wxF7s=
+
+Name: org/eclipse/zest/layouts/algorithms/internal/DynamicScreen.class
+SHA1-Digest: 1XQF12KGO/cTblXknKscxPxWy9g=
+
+Name: org/eclipse/zest/layouts/LayoutGraph.class
+SHA1-Digest: PEJ0ha+kwmZzs5FCJLnT6eIbzX0=
+
+Name: org/eclipse/zest/layouts/exampleStructures/SimpleNode.class
+SHA1-Digest: McqWutUJOU7Qhj+cGja8gSJdyBk=
+
+Name: org/eclipse/zest/layouts/algorithms/RadialLayoutAlgorithm.class
+SHA1-Digest: FFV3Zs/LnwexZfMS/vq4/yz6QEw=
+
+Name: org/eclipse/zest/layouts/constraints/EntityPriorityConstraint.cl
+ ass
+SHA1-Digest: rQL3W3TpQiz3dmP0ooDBQhorrPM=
+
