@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ClassDiagram Plug-in
-Bundle-SymbolicName: ca.ubc.cs.salee.classdiagram;singleton:=true
+Bundle-SymbolicName: navclus.userinterface.classdiagram;singleton:=true
 Bundle-Version: 0.0.8
 Bundle-Activator: ca.ubc.cs.salee.classdiagram.PlugIn
 Bundle-Vendor: Seonah Lee - UBC
