@@ -2,6 +2,8 @@ package ca.ubc.cs.salee.classdiagram.view.test;
 
 import junit.framework.TestCase;
 
+import navclus.userinterface.classdiagram.Viewer;
+
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.runtime.jobs.Job;
 import org.eclipse.jdt.core.ICompilationUnit;
@@ -16,7 +18,6 @@ import org.eclipse.ui.internal.WorkbenchPlugin;
 import org.eclipse.ui.internal.dialogs.DialogUtil;
 import org.eclipse.ui.part.FileEditorInput;
 
-import ca.ubc.cs.salee.classdiagram.Viewer;
 import ca.ubc.cs.salee.classdiagram.testutil.SourceModel;
 import ca.ubc.cs.salee.classdiagram.testutil.UIModel;
 

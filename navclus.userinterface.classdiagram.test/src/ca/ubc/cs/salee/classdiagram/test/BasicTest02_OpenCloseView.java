@@ -2,13 +2,14 @@ package ca.ubc.cs.salee.classdiagram.test;
 
 import junit.framework.TestCase;
 
+import navclus.userinterface.classdiagram.Viewer;
+
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.runtime.jobs.Job;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.ui.IWorkbenchPage;
 import org.eclipse.ui.PlatformUI;
 
-import ca.ubc.cs.salee.classdiagram.Viewer;
 //import ca.ubc.cs.salee.classdiagram.figures.UMLClass_Structure;
 import ca.ubc.cs.salee.classdiagram.testutil.SourceModel;
 import ca.ubc.cs.salee.classdiagram.testutil.UIModel;

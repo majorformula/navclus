@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: ClassDiagram Plug-in
 Bundle-SymbolicName: navclus.userinterface.classdiagram;singleton:=true
 Bundle-Version: 0.0.8
-Bundle-Activator: ca.ubc.cs.salee.classdiagram.PlugIn
+Bundle-Activator: navclus.userinterface.classdiagram.PlugIn
 Bundle-Vendor: Seonah Lee - UBC
 Require-Bundle: org.eclipse.core.resources,
  org.eclipse.core.runtime,
@@ -17,9 +17,9 @@ Require-Bundle: org.eclipse.core.resources,
  org.eclipse.zest.core,
  org.eclipse.zest.layouts
 Eclipse-LazyStart: true
-Export-Package: ca.ubc.cs.salee.classdiagram,
- ca.ubc.cs.salee.classdiagram.actions,
- ca.ubc.cs.salee.classdiagram.classfigure,
- ca.ubc.cs.salee.classdiagram.java.analyzer,
- ca.ubc.cs.salee.classdiagram.utils
+Export-Package: navclus.userinterface.classdiagram,
+ navclus.userinterface.classdiagram.actions,
+ navclus.userinterface.classdiagram.classfigure,
+ navclus.userinterface.classdiagram.java.analyzer,
+ navclus.userinterface.classdiagram.utils
 

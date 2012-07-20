@@ -2,11 +2,12 @@ package ca.ubc.cs.salee.classdiagram.view.test;
 
 import junit.framework.TestCase;
 
+import navclus.userinterface.classdiagram.Viewer;
+
 import org.eclipse.core.runtime.jobs.Job;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.ui.PlatformUI;
 
-import ca.ubc.cs.salee.classdiagram.Viewer;
 
 /**
  * The class <code>FavoritesViewTest</code> contains tests 

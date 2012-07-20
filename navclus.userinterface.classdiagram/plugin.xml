@@ -5,7 +5,7 @@
          point="org.eclipse.ui.views">
       <view
             name="Class View"
-            class="ca.ubc.cs.salee.classdiagram.Viewer"
+            class="navclus.userinterface.classdiagram.Viewer"
             id="ca.ubc.cs.salee.classdiagram.view">
       </view>
    </extension>
