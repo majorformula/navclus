@@ -1,36 +1,58 @@
-package ca.ubc.cs.salee.classdiagram.view.test;
+package navclus.userinterface.classdiagram.test;
 
 import junit.framework.TestCase;
 
 import navclus.userinterface.classdiagram.Viewer;
-import navclus.userinterface.classdiagram.utils.TypeHistory;
+import navclus.userinterface.classdiagram.testutil.SourceModel;
+import navclus.userinterface.classdiagram.testutil.UIModel;
 
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.runtime.jobs.Job;
-import org.eclipse.jdt.core.ICompilationUnit;
-import org.eclipse.jdt.core.IType;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.ui.IWorkbenchPage;
 import org.eclipse.ui.PlatformUI;
 
-import ca.ubc.cs.salee.classdiagram.testutil.SourceModel;
-import ca.ubc.cs.salee.classdiagram.testutil.UIModel;
+//import ca.ubc.cs.salee.classdiagram.figures.UMLClass_Structure;
 
-public class PreviousTypeTest extends TestCase {
-	
+
+/**
+ * The class <code>FavoritesViewTest</code> contains tests 
+ * for the class {@link 
+ *    com.qualityeclipse.favorites.views.FavoritesView}.
+ *
+ * @pattern JUnit Test Case
+ * @generatedBy CodePro Studio
+ */
+public class BasicTest02_OpenCloseView extends TestCase
+{
 	private static final String VIEW_ID = 
 		"ca.ubc.cs.salee.classdiagram.view";
 
-	UIModel uimodel = new UIModel();	
-	
 	/**
 	 * The object that is being tested.
 	 *
 	 * @see com.qualityeclipse.favorites.views.FavoritesView
 	 */
 	private Viewer testView;
-	
-	@Override
+
+	/**
+   /**
+	 * Construct new test instance.
+	 *
+	 * @param name the test name
+	 */
+	public BasicTest02_OpenCloseView(String name) {
+		super(name);
+	}
+
+
+	/**
+	 * Perform pre-test initialization.
+	 *
+	 * @throws Exception
+	 *
+	 * @see TestCase#setUp()
+	 */
 	protected void setUp() throws Exception {
 		super.setUp();
 		// Initialize the test fixture for each test 
@@ -42,6 +64,12 @@ public class PreviousTypeTest extends TestCase {
 		.getActiveWorkbenchWindow()
 		.getActivePage()
 		.showView(VIEW_ID, null, IWorkbenchPage.VIEW_CREATE);
+		
+		PlatformUI
+		.getWorkbench()
+		.getActiveWorkbenchWindow()
+		.getActivePage()
+		.bringToTop(testView);
 
 		// Delay for 3 seconds so that 
 		// the Favorites view can be seen.
@@ -51,7 +79,13 @@ public class PreviousTypeTest extends TestCase {
 		// Add additional setup code here.
 	}
 
-	@Override
+	/**
+	 * Perform post-test cleanup.
+	 *
+	 * @throws Exception
+	 *
+	 * @see TestCase#tearDown()
+	 */
 	protected void tearDown() throws Exception {
 		super.tearDown();
 		// Dispose of test fixture.
@@ -64,55 +98,40 @@ public class PreviousTypeTest extends TestCase {
 		// Add additional teardown code here.
 	}
 
-	public void testSetPreElement1() {
-		TypeHistory previoustype = TypeHistory.getPreviousType();
+	/**
+	 * Run the view test.
+	 */
+	public void testView1() {
+//		testView.setDrawOption(new DrawOption_Navigation());
 		
-		// test initial mode
-		assertNotNull(previoustype);
-		assertNull(previoustype.getPreElement());
-		assertNull(previoustype.getPreType());
-		
-		// open a file
-		IFile file = SourceModel.getFile("edu.buffalo.cse.green", "src-Green\\edu\\buffalo\\cse\\green", "PlugIn.java");
-
-		uimodel.openJavaFile(file);
-		waitForJobs();
-		delay(3000);
-		
-		assertNotNull(previoustype.getPreType());
-		assertEquals("PlugIn", previoustype.getPreType().getElementName());
-		
-		uimodel.closeJavaFile(file);
-		waitForJobs();
-		delay(3000);
-		
-		// test 2nd mode
-		assertNotNull(previoustype);
-		assertNotNull(previoustype.getPreElement());
-		assertNotNull(previoustype.getPreType());
-		
-		// open a file #1
-		IFile file1 = SourceModel.getFile("edu.buffalo.cse.green", "src-Green\\edu\\buffalo\\cse\\green", "PlugIn.java");
+		UIModel uimodel = new UIModel();
+		IFile file1 = SourceModel.getFile("edu.buffalo.cse.green", "src-Green\\edu\\buffalo\\cse\\green", "PlugIn.java");		
 		uimodel.openJavaFile(file1);
-		waitForJobs();
 		delay(3000);
 		
-		// open a file #2
-		IFile file2 = SourceModel.getFile("edu.buffalo.cse.green", "src-Green\\edu\\buffalo\\cse\\green", "JavaModelListener.java");	
-		uimodel.openJavaFile(file2);
-		waitForJobs();
-		delay(3000);
+		try {
+			this.tearDown();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
-		assertNotNull(previoustype.getPreType());
-		assertEquals("JavaModelListener", previoustype.getPreType().getElementName());
+		delay(3000);
+		try {
+			this.setUp();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		delay(3000);
 		
 		uimodel.closeJavaFile(file1);
-		uimodel.closeJavaFile(file2);
-		waitForJobs();
+		
 		delay(3000);
 		
-	}
-		
+//		testView.countGraphNodes();
+//		assertEquals(1,1);
+	}	
+	
+	
 	/**
 	 * Process UI input but do not return for the 
 	 * specified time interval.
@@ -153,4 +172,5 @@ public class PreviousTypeTest extends TestCase {
 		while (Job.getJobManager().currentJob() != null)
 			delay(1000);
 	}
+
 }

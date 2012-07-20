@@ -1,18 +1,24 @@
-package ca.ubc.cs.salee.classdiagram.test;
+package navclus.userinterface.classdiagram.view.test;
 
 import junit.framework.TestCase;
 
 import navclus.userinterface.classdiagram.Viewer;
+import navclus.userinterface.classdiagram.testutil.SourceModel;
+import navclus.userinterface.classdiagram.testutil.UIModel;
 
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.runtime.jobs.Job;
+import org.eclipse.jdt.core.ICompilationUnit;
 import org.eclipse.swt.widgets.Display;
+import org.eclipse.ui.IEditorDescriptor;
+import org.eclipse.ui.IEditorRegistry;
 import org.eclipse.ui.IWorkbenchPage;
+import org.eclipse.ui.IWorkbenchWindow;
+import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.PlatformUI;
-
-//import ca.ubc.cs.salee.classdiagram.figures.UMLClass_Structure;
-import ca.ubc.cs.salee.classdiagram.testutil.SourceModel;
-import ca.ubc.cs.salee.classdiagram.testutil.UIModel;
+import org.eclipse.ui.internal.WorkbenchPlugin;
+import org.eclipse.ui.internal.dialogs.DialogUtil;
+import org.eclipse.ui.part.FileEditorInput;
 
 
 /**
@@ -23,7 +29,7 @@ import ca.ubc.cs.salee.classdiagram.testutil.UIModel;
  * @pattern JUnit Test Case
  * @generatedBy CodePro Studio
  */
-public class BasicTest02_OpenCloseView extends TestCase
+public class JavaEditorPartListenerTest extends TestCase
 {
 	private static final String VIEW_ID = 
 		"ca.ubc.cs.salee.classdiagram.view";
@@ -41,7 +47,7 @@ public class BasicTest02_OpenCloseView extends TestCase
 	 *
 	 * @param name the test name
 	 */
-	public BasicTest02_OpenCloseView(String name) {
+	public JavaEditorPartListenerTest(String name) {
 		super(name);
 	}
 
@@ -64,12 +70,6 @@ public class BasicTest02_OpenCloseView extends TestCase
 		.getActiveWorkbenchWindow()
 		.getActivePage()
 		.showView(VIEW_ID, null, IWorkbenchPage.VIEW_CREATE);
-		
-		PlatformUI
-		.getWorkbench()
-		.getActiveWorkbenchWindow()
-		.getActivePage()
-		.bringToTop(testView);
 
 		// Delay for 3 seconds so that 
 		// the Favorites view can be seen.
@@ -102,36 +102,19 @@ public class BasicTest02_OpenCloseView extends TestCase
 	 * Run the view test.
 	 */
 	public void testView1() {
-//		testView.setDrawOption(new DrawOption_Navigation());
-		
 		UIModel uimodel = new UIModel();
-		IFile file1 = SourceModel.getFile("edu.buffalo.cse.green", "src-Green\\edu\\buffalo\\cse\\green", "PlugIn.java");		
-		uimodel.openJavaFile(file1);
+		IFile file = SourceModel.getFile("edu.buffalo.cse.green", "src-Green\\edu\\buffalo\\cse\\green", "PlugIn.java");		
+		uimodel.openJavaFile(file);
 		delay(3000);
 		
-		try {
-			this.tearDown();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-		delay(3000);
-		try {
-			this.setUp();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		delay(3000);
-		
-		uimodel.closeJavaFile(file1);
-		
+		uimodel.closeJavaFile(file);		
 		delay(3000);
 		
 //		testView.countGraphNodes();
 //		assertEquals(1,1);
-	}	
-	
-	
+	}
+
+
 	/**
 	 * Process UI input but do not return for the 
 	 * specified time interval.

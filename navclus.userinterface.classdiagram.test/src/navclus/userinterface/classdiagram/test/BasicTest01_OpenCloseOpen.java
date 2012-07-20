@@ -1,8 +1,10 @@
-package ca.ubc.cs.salee.classdiagram.view.test;
+package navclus.userinterface.classdiagram.test;
 
 import junit.framework.TestCase;
 
 import navclus.userinterface.classdiagram.Viewer;
+import navclus.userinterface.classdiagram.testutil.SourceModel;
+import navclus.userinterface.classdiagram.testutil.UIModel;
 
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.runtime.jobs.Job;
@@ -18,8 +20,6 @@ import org.eclipse.ui.internal.WorkbenchPlugin;
 import org.eclipse.ui.internal.dialogs.DialogUtil;
 import org.eclipse.ui.part.FileEditorInput;
 
-import ca.ubc.cs.salee.classdiagram.testutil.SourceModel;
-import ca.ubc.cs.salee.classdiagram.testutil.UIModel;
 
 /**
  * The class <code>FavoritesViewTest</code> contains tests 
@@ -29,7 +29,7 @@ import ca.ubc.cs.salee.classdiagram.testutil.UIModel;
  * @pattern JUnit Test Case
  * @generatedBy CodePro Studio
  */
-public class JavaEditorPartListenerTest extends TestCase
+public class BasicTest01_OpenCloseOpen extends TestCase
 {
 	private static final String VIEW_ID = 
 		"ca.ubc.cs.salee.classdiagram.view";
@@ -47,7 +47,7 @@ public class JavaEditorPartListenerTest extends TestCase
 	 *
 	 * @param name the test name
 	 */
-	public JavaEditorPartListenerTest(String name) {
+	public BasicTest01_OpenCloseOpen(String name) {
 		super(name);
 	}
 
@@ -103,15 +103,17 @@ public class JavaEditorPartListenerTest extends TestCase
 	 */
 	public void testView1() {
 		UIModel uimodel = new UIModel();
-		IFile file = SourceModel.getFile("edu.buffalo.cse.green", "src-Green\\edu\\buffalo\\cse\\green", "PlugIn.java");		
+		IFile file = SourceModel.getFile("org.jhotdraw.samples.net", "src\\org\\jhotdraw\\samples\\net", "NetApp.java");		
 		uimodel.openJavaFile(file);
-		delay(3000);
+		delay(2000);
 		
 		uimodel.closeJavaFile(file);		
-		delay(3000);
+		delay(2000);
 		
-//		testView.countGraphNodes();
-//		assertEquals(1,1);
+		uimodel.openJavaFile(file);
+		delay(2000);		
+		
+		assertEquals(1, testView.countGraphNodes());
 	}
 
 

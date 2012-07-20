@@ -6,7 +6,7 @@
  *     Seonah Lee - initial mplementation
  *******************************************************************************/
 
-package ca.ubc.cs.salee.classdiagram.testutil;
+package navclus.userinterface.classdiagram.testutil;
 
 import java.util.Vector;
 

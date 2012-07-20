@@ -1,4 +1,4 @@
-package ca.ubc.cs.salee.classdiagram.testutil;
+package navclus.userinterface.classdiagram.testutil;
 
 import org.eclipse.core.resources.IFile;
 import org.eclipse.ui.IEditorDescriptor;

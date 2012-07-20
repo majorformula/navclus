@@ -1,4 +1,4 @@
-package ca.ubc.cs.salee.classdiagram.test;
+package navclus.userinterface.classdiagram.test;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;

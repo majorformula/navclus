@@ -4,7 +4,7 @@ Bundle-Name: Test Plug-in
 Bundle-SymbolicName: navclus.userinterface.classdiagram.test
 Bundle-Version: 1.0.0
 Bundle-ClassPath: classdiagramTest.jar
-Bundle-Activator: ca.ubc.cs.salee.classdiagram.test.ClassdiagramTestPlugin
+Bundle-Activator: navclus.userinterface.classdiagram.test.ClassdiagramTestPlugin
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  navclus.userinterface.classdiagram,

@@ -1,4 +1,4 @@
-package ca.ubc.cs.salee.classdiagram.view.test;
+package navclus.userinterface.classdiagram.view.test;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
