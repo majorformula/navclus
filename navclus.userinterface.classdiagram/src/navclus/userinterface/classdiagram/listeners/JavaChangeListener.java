@@ -1,15 +1,17 @@
 package navclus.userinterface.classdiagram.listeners;
-///*******************************************************************************
-// * Copyright (c) 2007 UBC, SPL
-// * All rights reserved.
-// * 
-// * Contributors:
-// *     Seonah Lee - initial implementation
-// *******************************************************************************/
-//
-//package ca.ubc.cs.salee.classdiagram.listeners;
-//
+/*******************************************************************************
+ * Copyright (c) 2007 UBC, SPL
+ * All rights reserved.
+ * 
+ * Contributors:
+ *     Seonah Lee - initial implementation
+ *******************************************************************************/
+
 //import java.util.ArrayList;
+//
+//import navclus.userinterface.classdiagram.NavClusView;
+//import navclus.userinterface.classdiagram.java.analyzer.RelationModel;
+//import navclus.userinterface.classdiagram.java.analyzer.TypeModel;
 //
 //import org.eclipse.jdt.core.ElementChangedEvent;
 //import org.eclipse.jdt.core.IElementChangedListener;
@@ -20,23 +22,16 @@ package navclus.userinterface.classdiagram.listeners;
 //import org.eclipse.jdt.core.IType;
 //import org.eclipse.jdt.core.JavaModelException;
 //import org.eclipse.jdt.core.Signature;
+//import org.eclipse.jface.viewers.Viewer;
 //import org.eclipse.swt.widgets.Display;
-//
-//import ca.ubc.cs.salee.classdiagram.actions.RedrawActionOnlyConnection;
-//import ca.ubc.cs.salee.classdiagram.models.RelationModel;
-//import ca.ubc.cs.salee.classdiagram.models.TypeModel;
-//import ca.ubc.cs.salee.classdiagram.parts.NodePart;
-//import ca.ubc.cs.salee.classdiagram.parts.RootPart;
-//import ca.ubc.cs.salee.classdiagram.utils.FlagRedraw;
-//import ca.ubc.cs.salee.classdiagram.view.Viewer;
 //
 //
 //public class JavaChangeListener implements IElementChangedListener {
 //
-//	Viewer viewer;	
+//	NavClusView viewer;	
 //	TypeModel typemodel;	
 //
-//	public JavaChangeListener(Viewer viewer) {
+//	public JavaChangeListener(NavClusView viewer) {
 //		super();
 //		this.viewer = viewer;	
 //		this.typemodel = viewer.getTypemodel(); // error: check the viewer
