@@ -3,7 +3,7 @@ package navclus.userinterface.classdiagram.java.manager;
 import java.util.ArrayList;
 import java.util.List;
 
-import navclus.userinterface.classdiagram.Viewer;
+import navclus.userinterface.classdiagram.NavClusView;
 import navclus.userinterface.classdiagram.actions.RedrawAction;
 import navclus.userinterface.classdiagram.classfigure.ClassFigureCreator;
 import navclus.userinterface.classdiagram.classfigure.UMLNode;
@@ -20,7 +20,7 @@ import org.eclipse.zest.core.widgets.GraphNode;
 
 public class RootNode {
 
-	protected Viewer viewer; 
+	protected NavClusView viewer; 
 	private TypeNodeList typeNodeList;
 	private ConnectionList structuralRelationList;
 	private ConnectionList navigationalRelationList;	
@@ -28,7 +28,7 @@ public class RootNode {
 	
 	boolean isDirty = false;
 
-	public RootNode(Viewer viewer) {
+	public RootNode(NavClusView viewer) {
 		this.viewer = viewer;
 		this.typeNodeList = new TypeNodeList();
 		this.structuralRelationList = new ConnectionList();

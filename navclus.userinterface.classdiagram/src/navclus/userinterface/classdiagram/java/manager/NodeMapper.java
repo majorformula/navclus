@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
 
-import navclus.userinterface.classdiagram.Viewer;
+import navclus.userinterface.classdiagram.NavClusView;
 import navclus.userinterface.classdiagram.classfigure.ClassFigureCreator;
 import navclus.userinterface.classdiagram.classfigure.UMLNode;
 
@@ -16,11 +16,11 @@ import org.eclipse.zest.core.widgets.GraphConnection;
 
 public class NodeMapper {
 
-	protected Viewer viewer; 
+	protected NavClusView viewer; 
 	public HashMap<TypeNode, UMLNode> nodetable; 	// salee
 	
 	
-	public NodeMapper(Viewer viewer) {
+	public NodeMapper(NavClusView viewer) {
 		this.viewer = viewer;
 		this.nodetable = new LinkedHashMap<TypeNode, UMLNode>(); // salee	
 	}

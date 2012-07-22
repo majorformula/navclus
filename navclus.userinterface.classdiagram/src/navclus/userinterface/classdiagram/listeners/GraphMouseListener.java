@@ -11,7 +11,7 @@ package navclus.userinterface.classdiagram.listeners;
 import java.util.Iterator;
 import java.util.List;
 
-import navclus.userinterface.classdiagram.Viewer;
+import navclus.userinterface.classdiagram.NavClusView;
 import navclus.userinterface.classdiagram.classfigure.UMLNode;
 import navclus.userinterface.classdiagram.java.manager.RootNode;
 import navclus.userinterface.classdiagram.java.manager.TypeNode;
@@ -32,9 +32,9 @@ import org.eclipse.ui.PartInitException;
 
 public class GraphMouseListener implements org.eclipse.draw2d.MouseListener {
 
-	Viewer viewer ;	
+	NavClusView viewer ;	
 	
-	public GraphMouseListener(Viewer viewer) {
+	public GraphMouseListener(NavClusView viewer) {
 		super();
 		this.viewer = viewer;	
 	}

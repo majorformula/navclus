@@ -1,25 +1,23 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: ClassDiagram Plug-in
+Bundle-Name: Test
 Bundle-SymbolicName: navclus.userinterface.classdiagram;singleton:=true
-Bundle-Version: 0.0.8
+Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: navclus.userinterface.classdiagram.PlugIn
-Bundle-Vendor: Seonah Lee - UBC
-Require-Bundle: org.eclipse.core.resources,
+Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- org.eclipse.draw2d,
- org.eclipse.jdt.core,
- org.eclipse.jdt.ui,
- org.eclipse.jface.text,
- org.eclipse.ui,
- org.eclipse.ui.ide,
- org.eclipse.ui.editors,
- org.eclipse.zest.core,
- org.eclipse.zest.layouts
-Eclipse-LazyStart: true
-Export-Package: navclus.userinterface.classdiagram,
- navclus.userinterface.classdiagram.actions,
+ org.eclipse.core.resources;bundle-version="3.8.0",
+ org.eclipse.draw2d;bundle-version="3.8.0",
+ org.eclipse.zest.core;bundle-version="1.3.0",
+ org.eclipse.zest.layouts;bundle-version="1.1.0",
+ org.eclipse.jdt.core;bundle-version="3.8.1",
+ org.eclipse.jdt.ui;bundle-version="3.8.0",
+ org.eclipse.jface.text;bundle-version="3.8.0",
+ org.eclipse.ui.ide;bundle-version="3.8.0",
+ org.eclipse.ui.editors;bundle-version="3.8.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: navclus.userinterface.classdiagram.actions,
  navclus.userinterface.classdiagram.classfigure,
  navclus.userinterface.classdiagram.java.analyzer,
  navclus.userinterface.classdiagram.utils
-

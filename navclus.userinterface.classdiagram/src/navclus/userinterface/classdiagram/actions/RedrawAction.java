@@ -8,21 +8,22 @@
 
 package navclus.userinterface.classdiagram.actions;
 
-import navclus.userinterface.classdiagram.Viewer;
+import navclus.userinterface.classdiagram.NavClusView;
 import navclus.userinterface.classdiagram.java.manager.RootNode;
 
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IAction;
-import org.eclipse.mylyn.internal.monitor.ui.MonitorUiPlugin;
-import org.eclipse.mylyn.monitor.core.InteractionEvent;
+import org.eclipse.jface.viewers.Viewer;
+//import org.eclipse.mylyn.internal.monitor.ui.MonitorUiPlugin;
+//import org.eclipse.mylyn.monitor.core.InteractionEvent;
 
 
 public class RedrawAction extends Action implements IAction {
 
-	protected Viewer viewer;
+	protected NavClusView viewer;
 //	protected boolean bLog;
 	
-	public RedrawAction(Viewer viewer) {
+	public RedrawAction(NavClusView viewer) {
 		super("", AS_RADIO_BUTTON);	
 		this.viewer = viewer;	
 //		this.bLog = true;
