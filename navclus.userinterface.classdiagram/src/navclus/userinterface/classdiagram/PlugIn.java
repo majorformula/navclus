@@ -25,7 +25,7 @@ import org.osgi.framework.BundleContext;
 public class PlugIn extends AbstractUIPlugin {
 	
 	// The plug-in ID
-	public static final String PLUGIN_ID = "ca.ubc.cs.salee.classdiagram"; //$NON-NLS-1$
+	public static final String PLUGIN_ID = "navclus.userinterface.classdiagram"; //$NON-NLS-1$
 	
 	// The shared instance
 	private static PlugIn plugin;    

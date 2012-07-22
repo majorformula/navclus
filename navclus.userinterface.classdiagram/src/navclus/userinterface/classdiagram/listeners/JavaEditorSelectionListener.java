@@ -21,7 +21,7 @@ import org.eclipse.ui.IWorkbenchPart;
 
 import navclus.userinterface.*;
 import navclus.userinterface.classdiagram.NavClusView;
-import navclus.userinterface.classdiagram.actions.RedrawActionwoLayout;
+//import navclus.userinterface.classdiagram.actions.RedrawActionwoLayout;
 import navclus.userinterface.classdiagram.java.analyzer.RootModel;
 import navclus.userinterface.classdiagram.utils.FlagRedraw;
 import navclus.userinterface.classdiagram.utils.JavaEditorUtil;
@@ -76,7 +76,7 @@ public class JavaEditorSelectionListener implements ISelectionListener {
 
 				if (bUpdate) {
 //					System.out.println("redraw when it is selected");
-					(new RedrawActionwoLayout(viewer)).run();
+//					(new RedrawActionwoLayout(viewer)).run();
 				}
 
 			} catch (JavaModelException e) {

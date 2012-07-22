@@ -26,7 +26,8 @@ import org.eclipse.ui.IWorkbenchPartReference;
 
 import navclus.userinterface.classdiagram.PlugIn;
 import navclus.userinterface.classdiagram.actions.JavaAddition;
-import navclus.userinterface.classdiagram.actions.RedrawActionwoLayout;
+import navclus.userinterface.classdiagram.actions.RedrawAction;
+//import navclus.userinterface.classdiagram.actions.RedrawActionwoLayout;
 import navclus.userinterface.classdiagram.java.analyzer.RootModel;
 import navclus.userinterface.classdiagram.java.manager.RootNode;
 import navclus.userinterface.classdiagram.java.manager.TypeNode;
@@ -58,9 +59,18 @@ public class JavaEditorPartListener2 implements IPartListener2 {
 		final IJavaElement javaelement = javaeditorutil.getJavaElement(partRef);
 		if (javaelement == null) return;		
 		if (javaelement != null) {
-			JavaAddition addingJob = new JavaAddition(javaelement, rootmodel);
-			addingJob.setPriority(Job.BUILD);
-			addingJob.schedule();			
+			System.out.println("open:" + javaelement);
+			try {
+				this.rootmodel.openCU((ICompilationUnit) javaelement);
+				(new RedrawAction(viewer)).run();
+			} catch (JavaModelException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+//			JavaAddition addingJob = new JavaAddition(javaelement, rootmodel);
+//			addingJob.setPriority(Job.BUILD);
+//			addingJob.schedule();
+//			addCurrentNode(javaelement);	
 		}
 		else 
 			System.err.println("<exception occurs - partOpened>");
@@ -112,11 +122,11 @@ public class JavaEditorPartListener2 implements IPartListener2 {
 	}
 	
 	public void partInputChanged(IWorkbenchPartReference partRef) {
-		IJavaElement javaelement = javaeditorutil.getJavaElement(partRef);
-		if (javaelement == null) return;
-
-		removePreviousNode();
-		addCurrentNode(javaelement);					
+//		IJavaElement javaelement = javaeditorutil.getJavaElement(partRef);
+//		if (javaelement == null) return;
+//
+//		removePreviousNode();
+//		addCurrentNode(javaelement);					
 	}
 
 	///////////////////////////////////////////////////////////////////////////////		
@@ -202,6 +212,8 @@ public class JavaEditorPartListener2 implements IPartListener2 {
 	
 
 	private boolean addCurrentNode(IJavaElement curJavaElement) {
+		System.out.println("add current node");
+		
 		if (curJavaElement == null) return true;
 		
 		boolean bCurrentExist = false;

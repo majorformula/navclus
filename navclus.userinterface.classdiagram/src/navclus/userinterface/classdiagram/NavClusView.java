@@ -14,6 +14,8 @@ import navclus.userinterface.classdiagram.java.analyzer.RootModel;
 import navclus.userinterface.classdiagram.java.analyzer.TypeModel;
 import navclus.userinterface.classdiagram.java.manager.RootNode;
 import navclus.userinterface.classdiagram.listeners.GraphMouseListener;
+import navclus.userinterface.classdiagram.listeners.JavaEditorPartListener2;
+import navclus.userinterface.classdiagram.listeners.JavaEditorSelectionListener;
 import navclus.userinterface.classdiagram.utils.FlagRedraw;
 import navclus.userinterface.classdiagram.utils.JavaEditorUtil;
 import navclus.userinterface.classdiagram.utils.TypeHistory;
@@ -60,8 +62,6 @@ import org.eclipse.ui.part.ViewPart;
 
 //import ca.ubc.cs.salee.classdiagram.actions.RedrawActionwoLayout;
 //import ca.ubc.cs.salee.classdiagram.listeners.JavaChangeListener;
-//import ca.ubc.cs.salee.classdiagram.listeners.JavaEditorPartListener2;
-//import ca.ubc.cs.salee.classdiagram.listeners.JavaEditorSelectionListener;
 //import ca.ubc.cs.salee.classdiagram.listeners.JobEventListener;
 
 public class NavClusView extends ViewPart {
@@ -76,8 +76,8 @@ public class NavClusView extends ViewPart {
 		viewer = this;
 	}
 	
-//	JavaEditorPartListener2 javaeditorpartlistner2;	
-//	JavaEditorSelectionListener javaeditorselectionlistener;
+	JavaEditorPartListener2 javaeditorpartlistner2;	
+	JavaEditorSelectionListener javaeditorselectionlistener;
 //	JobEventListener jobeventlistener;
 //	JavaChangeListener javachangelistener;
 	
@@ -199,17 +199,17 @@ public class NavClusView extends ViewPart {
 	
 	private void hookPartAction() {	
 		
-//		// Open & Close Files
-//		javaeditorpartlistner2 = new JavaEditorPartListener2(this);
-//		WINDOW.getPartService().addPartListener(javaeditorpartlistner2);
-//
+		// Open & Close Files
+		javaeditorpartlistner2 = new JavaEditorPartListener2(this);
+		WINDOW.getPartService().addPartListener(javaeditorpartlistner2);
+
 //		// change java elements
 //		javachangelistener = new JavaChangeListener(this);
 //		JavaCore.addElementChangedListener(javachangelistener, ElementChangedEvent.POST_RECONCILE);
 //		
-//		// Select Text
-//		javaeditorselectionlistener = new JavaEditorSelectionListener(this);
-//		WINDOW.getSelectionService().addPostSelectionListener(javaeditorselectionlistener);		
+		// Select Text
+		javaeditorselectionlistener = new JavaEditorSelectionListener(this);
+		WINDOW.getSelectionService().addPostSelectionListener(javaeditorselectionlistener);		
 //		
 //		// Jobs
 //		jobeventlistener = new JobEventListener();
@@ -237,12 +237,12 @@ public class NavClusView extends ViewPart {
 		rootmodel.cleanUp();
 		rootmodel = null;
 
-//		// Open & Close Files
-//		WINDOW.getPartService().removePartListener(javaeditorpartlistner2);
-//
-//		// Select Text
-//		WINDOW.getSelectionService().removePostSelectionListener(javaeditorselectionlistener);
-//		
+		// Open & Close Files
+		WINDOW.getPartService().removePartListener(javaeditorpartlistner2);
+
+		// Select Text
+		WINDOW.getSelectionService().removePostSelectionListener(javaeditorselectionlistener);
+		
 //		// Jobs
 //		Job.getJobManager().removeJobChangeListener(jobeventlistener);
 //		
