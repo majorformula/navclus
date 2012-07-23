@@ -13,7 +13,7 @@
             icon="icons/sample.gif"
             category="navclus.userinterface.classdiagram"
             class="navclus.userinterface.classdiagram.NavClusView"
-            id="NavClusView">
+            id="navclus.userinterface.classdiagram.navclusview">
       </view>
    </extension>
    <extension
