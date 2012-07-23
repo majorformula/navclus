@@ -1,0 +1,39 @@
+1264370452385	Rename field 'frequentElementLists'
+1264308873891	Delete element
+1264311736796	Rename type 'Token'
+1264311766046	Delete element
+1264501539382	Rename type 'IdfIndexerSalee'
+1264501573413	Rename type 'LsiIndexerSalee'
+1264501582403	Rename type 'TfIndexerSalee'
+1264502951119	Delete element
+1264502958737	Delete elements
+1264506790322	Copy compilation units
+1264506796566	Delete element
+1264506799515	Delete element
+1264506802520	Delete element
+1264507171203	Delete element
+1264470978200	Rename type 'AbstractSimilaritySalee'
+1264471000461	Rename type 'CosineSimilaritySalee'
+1264471019742	Rename type 'SearcherSalee'
+1264471065294	Rename type 'SimilaritySaleeTest'
+1264471972731	Rename field 'terms'
+1264580625605	Rename method 'testSimilarity'
+1264584078623	Rename type 'PointOfInterestListManager'
+1264584091454	Rename type 'PointOfInterestComparator'
+1264584111275	Rename field 'poiManager'
+1264586685587	Delete element
+1264586950792	Delete element
+1264681919267	Rename method 'sort'
+1264682644066	Rename local variable 'freqList'
+1264683453054	Rename local variable 'numWords'
+1264687342146	Rename field 'pointsOfInterest'
+1264687414263	Rename method 'extractPointsOfInterest'
+1264687907806	Rename method 'printPointOfInterest'
+1264689491182	Rename local variable 'freqList'
+1264689529746	Rename method 'markPointsOfInterest'
+1264689545847	Rename local variable 'pointOfInterestList'
+1264689594849	Rename field 'bPointOfInterest'
+1264689618256	Rename method 'setPointOfInterest'
+1264689630377	Rename method 'isPointOfInterest'
+1264689853988	Rename method 'markPointsOfInterest'
+1264692274133	Rename method 'getLists'

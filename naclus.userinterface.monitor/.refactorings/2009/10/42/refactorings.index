@@ -1,0 +1,8 @@
+1255309839062	Rename method 'getItemList'
+1255311630625	Rename local variable 'poilist'
+1255312583984	Rename local variable 'tmpFrequentList'
+1255320567843	Rename local variable 'element'
+1255320582734	Rename local variable 'Blement'
+1255320626484	Rename local variable 'BElement'
+1255379057718	Introduce factory for 'PatternSelector'
+1255388296062	Rename resource 'user10Task2.xml'

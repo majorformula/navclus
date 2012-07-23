@@ -1,0 +1,686 @@
+
+Root element - user1
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~createConnectors
+=JHotDraw/src<org.jhotdraw.samples.net{NetApp.java[NetApp~createTools~QJToolBar;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createTools~QJToolBar;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createLookAndFeelMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication^ATTRIBUTES_MENU
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createMenus~QJMenuBar;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createMenus~QJMenuBar;
+=JHotDraw/src<org.jhotdraw.samples.javadraw{JavaDrawApp.java[JavaDrawApp~createMenus~QJMenuBar;
+=JHotDraw/src<org.jhotdraw.samples.javadraw{JavaDrawApp.java[JavaDrawApp~createAnimationMenu
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.samples.javadraw{JavaDrawApp.java[JavaDrawApp~createMenus~QJMenuBar;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~open~QDrawingView;
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.samples.javadraw{JavaDrawApp.java[JavaDrawApp~createMenus~QJMenuBar;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~createConnectors
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~draw~QGraphics;
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+=JHotDraw/src<org.jhotdraw.samples.javadraw{JavaDrawApp.java[JavaDrawApp~createMenus~QJMenuBar;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand[UndoActivity
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~open~QDrawingView;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createInitialDrawingView
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~getSizeInformation
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 6
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.contrib{CommandMenuItem.java[CommandMenuItem~actionPerformed~QActionEvent;
+=JHotDraw/src<org.jhotdraw.standard{StandardDrawingView.java[StandardDrawingView[DrawingViewKeyListener~keyPressed~QKeyEvent;
+
+Transaction: 7
+=JHotDraw/src<org.jhotdraw.contrib{CommandMenuItem.java[CommandMenuItem~actionPerformed~QActionEvent;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createLookAndFeelMenu
+
+Transaction: 8
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+
+Transaction: 9
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~containsPoint~I~I
+
+Transaction: 10
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.framework{Figure.java[Figure~connectorAt~I~I
+=JHotDraw/src<org.jhotdraw.framework{Figure.java[Figure~setAttribute~QFigureAttributeConstant;~QObject;
+
+Transaction: 11
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~containsPoint~I~I
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure^fConnectors
+
+Transaction: 12
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~containsPoint~I~I
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~findConnector~I~I
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~draw~QGraphics;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+=JHotDraw/src<org.jhotdraw.framework{Connector.java[Connector~draw~QGraphics;
+
+Transaction: 13
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.framework{DrawingView.java[DrawingView~checkDamage
+
+Transaction: 14
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.framework{Figure.java[Figure~setAttribute~QFigureAttributeConstant;~QObject;
+
+Transaction: 15
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.framework{FigureEnumeration.java[FigureEnumeration~nextFigure
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+
+Transaction: 16
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure^fConnectors
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createColorMenu~QString;~QFigureAttributeConstant;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createEditMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAlignmentMenu
+
+Root element - user2
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.samples.javadraw{JavaDrawApp.java[JavaDrawApp~JavaDrawApp~QString;
+=JHotDraw/src<org.jhotdraw.samples.net{NetApp.java[NetApp
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication^fIconkit
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication^ATTRIBUTES_MENU
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createMenus~QJMenuBar;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_END
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.framework{DrawingView.java[DrawingView~checkDamage
+
+Transaction: 6
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand[UndoActivity~UndoActivity~QDrawingView;~QFigureAttributeConstant;~QObject;
+
+Transaction: 7
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.standard{AbstractCommand.java[AbstractCommand~execute
+
+Transaction: 8
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~open~QDrawingView;
+
+Transaction: 9
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.util{Undoable.java[Undoable~setAffectedFigures~QFigureEnumeration;
+
+Transaction: 10
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.util{Undoable.java[Undoable~setAffectedFigures~QFigureEnumeration;
+=JHotDraw/src<org.jhotdraw.util{Undoable.java[Undoable~getAffectedFigures
+
+Transaction: 11
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+
+Root element - user3
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.samples.net{NetApp.java[NetApp
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~open~QDrawingView;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createEditMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_NONE
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.framework{Figure.java[Figure~setAttribute~QFigureAttributeConstant;~QObject;
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.framework{Figure.java[Figure~setAttribute~QFigureAttributeConstant;~QObject;
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.samples.net{NetApp.java[NetApp
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~canConnect
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_NONE
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QString;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+
+Transaction: 6
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure
+
+Transaction: 7
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~setStartConnector~QConnector;
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~endFigure
+
+Transaction: 8
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~setStartConnector~QConnector;
+
+Root element - user4
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~connectorVisibility~Z~QConnectionFigure;
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~connectors
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.standard{SimpleUpdateStrategy.java[SimpleUpdateStrategy~draw~QGraphics;~QDrawingView;
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~LineConnection
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~LineConnection
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+
+Transaction: 6
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~LineConnection
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~drawConnectors~QGraphics;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~handles
+
+Transaction: 7
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~LineConnection
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~handles
+
+Transaction: 8
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~decorate~QGraphics;
+
+Transaction: 9
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~LineConnection
+
+Root element - user5
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~createConnectors
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~findConnector~I~I
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~initialize
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~connectorAt~I~I
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~ArrowTip~D~D~D
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~LineConnection
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~connectorAt~I~I
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~connectorAt~I~I
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~ArrowTip~D~D~D
+
+Root element - user6
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.framework{ConnectionFigure.java[ConnectionFigure
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~endFigure
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~startFigure
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~getStartConnector
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~startFigure
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~getEndConnector
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection^myEndConnector
+=JHotDraw/src<org.jhotdraw.standard{ConnectionTool.java[ConnectionTool~mouseDown~QMouseEvent;~I~I
+=JHotDraw/src<org.jhotdraw.framework{ConnectionFigure.java[ConnectionFigure
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection^myEndConnector
+=JHotDraw/src<org.jhotdraw.framework{Figure.java[Figure~connectorAt~I~I
+=JHotDraw/src<org.jhotdraw.framework{Figure.java[Figure~addFigureChangeListener~QFigureChangeListener;
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~connectEnd~QConnector;
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.framework{Figure.java[Figure~addFigureChangeListener~QFigureChangeListener;
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~connectEnd~QConnector;
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~findConnector~I~I
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~connectEnd~QConnector;
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~figureRequestUpdate~QFigureChangeEvent;
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~updateConnection
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~figureChanged~QFigureChangeEvent;
+
+Transaction: 6
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~updateConnection
+=JHotDraw/src<org.jhotdraw.figures{FigureAttributes.java[FigureAttributes
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip^fAngle
+
+Transaction: 7
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{FigureAttributes.java[FigureAttributes
+
+Transaction: 8
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~updateConnection
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~getEndConnector
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~canConnect~QFigure;~QFigure;
+
+Transaction: 9
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~getEndConnector
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~setEndConnector~QConnector;
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~connectEnd~QConnector;
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+
+Transaction: 10
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~connectEnd~QConnector;
+=JHotDraw/src<org.jhotdraw.figures{LineConnection.java[LineConnection~handles
+
+Root element - user7
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~findConnector~I~I
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~getRepresentingFigure
+=JHotDraw/src<org.jhotdraw.standard{LocatorConnector.java[LocatorConnector~LocatorConnector~QFigure;~QLocator;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector^serialVersionUID
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~AbstractConnector
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~AbstractConnector~QFigure;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~owner
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findStart~QConnectionFigure;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findPoint~QConnectionFigure;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findEnd~QConnectionFigure;
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findPoint~QConnectionFigure;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findStart~QConnectionFigure;
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findPoint~QConnectionFigure;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findEnd~QConnectionFigure;
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findPoint~QConnectionFigure;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findStart~QConnectionFigure;
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findPoint~QConnectionFigure;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findEnd~QConnectionFigure;
+
+Transaction: 6
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector~findPoint~QConnectionFigure;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector^abstractConnectorSerializedDataVersion
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip^serialVersionUID
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~outline~I~I~I~I
+
+Transaction: 7
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~ArrowTip~D~D~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~setAngle~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~setOuterRadius~D
+
+Transaction: 8
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~ArrowTip~D~D~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~setAngle~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~setOuterRadius~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~setInnerRadius~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~outline~I~I~I~I
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~outline~I~I~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~getOuterRadius
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~getAngle
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~addPointRelative~QPolygon;~I~I~D~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~getInnerRadius
+
+Transaction: 9
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~addPointRelative~QPolygon;~I~I~D~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~getOuterRadius
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~getAngle
+
+Transaction: 10
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~addPointRelative~QPolygon;~I~I~D~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~outline~I~I~I~I
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~outline~I~I~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~getInnerRadius
+
+Transaction: 11
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~addPointRelative~QPolygon;~I~I~D~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~read~QStorableInput;
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~ArrowTip~D~D~D
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip~ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_START
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_BOTH
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setEndDecoration~QLineDecoration;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~getEndDecoration
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector^abstractConnectorSerializedDataVersion
+
+Transaction: 12
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~getEndDecoration
+=JHotDraw/src<org.jhotdraw.standard{LocatorConnector.java[LocatorConnector~LocatorConnector~QFigure;~QLocator;
+
+Transaction: 13
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~getEndDecoration
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~createConnectors
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~findConnector~I~I
+
+Root element - user8
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.samples.net{NetApp.java[NetApp~createTools~QJToolBar;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip
+=JHotDraw/src<org.jhotdraw.figures{ArrowTip.java[ArrowTip^fOuterRadius
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_START
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_NONE
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_START
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure
+
+Transaction: 6
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+
+Root element - user9
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.samples.net{NetApp.java[NetApp~createTools~QJToolBar;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createTools~QJToolBar;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createInitialDrawingView
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.standard{AbstractCommand.java[AbstractCommand~view
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.standard{AbstractCommand.java[AbstractCommand~view
+=JHotDraw/src<org.jhotdraw.standard{AbstractCommand.java[AbstractCommand~AbstractCommand~QString;~QDrawingEditor;
+
+Transaction: 6
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+
+Transaction: 7
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+
+Transaction: 8
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_START
+
+Transaction: 9
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_START
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_END
+
+Transaction: 10
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_BOTH
+
+Transaction: 11
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+
+Root element - user10
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication^ATTRIBUTES_MENU
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createFileMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~getAttribute~QFigureAttributeConstant;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.standard{AbstractConnector.java[AbstractConnector
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_NONE
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;
+
+Root element - user11
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication^ALIGNMENT_MENU
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.framework{FigureAttributeConstant.java[FigureAttributeConstant
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.framework{FigureAttributeConstant.java[FigureAttributeConstant
+=JHotDraw/src<org.jhotdraw.framework{FigureAttributeConstant.java[FigureAttributeConstant^ARROW_MODE
+=JHotDraw/src<org.jhotdraw.framework{FigureAttributeConstant.java[FigureAttributeConstant^ARROW_MODE_STR
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.framework{FigureAttributeConstant.java[FigureAttributeConstant^ARROW_MODE_STR
+=JHotDraw/src<org.jhotdraw.framework{FigureAttributeConstant.java[FigureAttributeConstant
+
+Transaction: 6
+=JHotDraw/src<org.jhotdraw.framework{FigureAttributeConstant.java[FigureAttributeConstant^ARROW_MODE_STR
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.util{UndoableCommand.java[UndoableCommand~UndoableCommand~QCommand;
+
+Transaction: 7
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.framework{FigureAttributeConstant.java[FigureAttributeConstant^ARROW_MODE_STR
+
+Transaction: 8
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 9
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 10
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure
+=JHotDraw/src<org.jhotdraw.framework{FigureAttributeConstant.java[FigureAttributeConstant^ARROW_MODE_STR
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~displayBox
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.util{UndoableCommand.java[UndoableCommand~UndoableCommand~QCommand;
+
+Transaction: 11
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+
+Transaction: 12
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+
+Transaction: 13
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication^ATTRIBUTES_MENU
+
+Transaction: 14
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+
+Transaction: 15
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication^listeners
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~fireViewSelectionChangedEvent~QDrawingView;~QDrawingView;
+=JHotDraw/src<org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~displayBox
+
+Transaction: 16
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~fireViewSelectionChangedEvent~QDrawingView;~QDrawingView;
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;
+
+Transaction: 17
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~fireViewSelectionChangedEvent~QDrawingView;~QDrawingView;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createColorMenu~QString;~QFigureAttributeConstant;
+
+Root element - user12
+
+Transaction: 1
+=JHotDraw/src<org.jhotdraw.samples.net{NodeFigure.java[NodeFigure~findConnector~I~I
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication^listeners
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~addListeners[~windowClosed~QWindowEvent;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createMenus~QJMenuBar;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createColorMenu~QString;~QFigureAttributeConstant;
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createFontMenu
+
+Transaction: 2
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~createUndoActivity
+
+Transaction: 3
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication
+
+Transaction: 4
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createFontMenu
+=JHotDraw/src<org.jhotdraw.figures{FigureAttributes.java[FigureAttributes
+
+Transaction: 5
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createFontMenu
+=JHotDraw/src<org.jhotdraw.contrib{CustomSelectionTool.java[CustomSelectionTool
+=JHotDraw/src<org.jhotdraw.contrib{CustomSelectionTool.java[CustomSelectionTool~handleMouseUp~QMouseEvent;~I~I
+=JHotDraw/src<org.jhotdraw.contrib{CTXCommandMenu.java[CTXCommandMenu~add~QCommand;~QMenuShortcut;
+
+Transaction: 6
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createFontMenu
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~createUndoActivity
+=JHotDraw/src<org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand
+
+Transaction: 7
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createFontMenu
+=JHotDraw/src<org.jhotdraw.figures{FigureAttributes.java[FigureAttributes
+
+Transaction: 8
+=JHotDraw/src<org.jhotdraw.application{DrawApplication.java[DrawApplication~createFontMenu
