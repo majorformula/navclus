@@ -1,0 +1,3181 @@
+<user9>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:24:24.125 PDT</date>
+	<endDate>2007-03-21 13:24:24.125 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.JavaPerspective</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: actionSetShow</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:24:24.171 PDT</date>
+	<endDate>2007-03-21 13:24:24.171 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.samples.net{NetApp.java</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:24:24.187 PDT</date>
+	<endDate>2007-03-21 13:24:24.187 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: editorOpen</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:24:24.187 PDT</date>
+	<endDate>2007-03-21 13:24:24.187 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.JavaPerspective</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: editorOpen</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:24:25.203 PDT</date>
+	<endDate>2007-03-21 13:24:25.203 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.samples.net{NetApp.java</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:24:37.875 PDT</date>
+	<endDate>2007-03-21 13:24:37.875 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.samples.net{NetApp.java[NetApp~createTools~QJToolBar;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:24:39.687 PDT</date>
+	<endDate>2007-03-21 13:24:39.687 PDT</endDate>
+	<originId>null$item.label.&amp;Open Declaration&#x09;F3</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:24:40.156 PDT</date>
+	<endDate>2007-03-21 13:24:40.156 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:24:40.187 PDT</date>
+	<endDate>2007-03-21 13:24:40.187 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: editorOpen</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:24:40.187 PDT</date>
+	<endDate>2007-03-21 13:24:40.187 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.JavaPerspective</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: editorOpen</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:24:41.234 PDT</date>
+	<endDate>2007-03-21 13:24:41.234 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createTools~QJToolBar;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:24:54.625 PDT</date>
+	<endDate>2007-03-21 13:24:54.625 PDT</endDate>
+	<originId>org.eclipse.search.OpenSearchDialog$item.label.Se&amp;arch/Se&amp;arch...&#x09;Ctrl+H</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:24:54.828 PDT</date>
+	<endDate>2007-03-21 13:24:54.828 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:24:56.390 PDT</date>
+	<endDate>2007-03-21 13:24:56.390 PDT</endDate>
+	<originId>org.eclipse.search.ui.views.SearchView</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{LineConnection.java[LineConnection</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:24:56.500 PDT</date>
+	<endDate>2007-03-21 13:24:56.500 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:25:04.812 PDT</date>
+	<endDate>2007-03-21 13:25:04.812 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createTools~QJToolBar;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:25:05.656 PDT</date>
+	<endDate>2007-03-21 13:25:05.656 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createInitialDrawingView</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:25:05.671 PDT</date>
+	<endDate>2007-03-21 13:25:05.671 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createInitialDrawingView</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:25:26.250 PDT</date>
+	<endDate>2007-03-21 13:25:26.250 PDT</endDate>
+	<originId>org.eclipse.search.OpenSearchDialog$item.label.Se&amp;arch/Se&amp;arch...&#x09;Ctrl+H</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:25:26.453 PDT</date>
+	<endDate>2007-03-21 13:25:26.453 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:25:35.343 PDT</date>
+	<endDate>2007-03-21 13:25:35.343 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:25:38.31 PDT</date>
+	<endDate>2007-03-21 13:25:38.31 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createInitialDrawingView</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:25:38.718 PDT</date>
+	<endDate>2007-03-21 13:25:38.718 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:25:40.781 PDT</date>
+	<endDate>2007-03-21 13:25:40.781 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:25:41.640 PDT</date>
+	<endDate>2007-03-21 13:25:41.640 PDT</endDate>
+	<originId>null$item.label.&amp;Open Declaration&#x09;F3</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:25:42.343 PDT</date>
+	<endDate>2007-03-21 13:25:42.343 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:25:42.359 PDT</date>
+	<endDate>2007-03-21 13:25:42.359 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:25:57.765 PDT</date>
+	<endDate>2007-03-21 13:25:57.765 PDT</endDate>
+	<originId>null$item.label.Re&amp;ferences/&amp;Workspace&#x09;Ctrl+Shift+G</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:25:57.968 PDT</date>
+	<endDate>2007-03-21 13:25:57.968 PDT</endDate>
+	<originId>org.eclipse.search.ui.views.SearchView</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:25:59.343 PDT</date>
+	<endDate>2007-03-21 13:25:59.343 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:25:59.906 PDT</date>
+	<endDate>2007-03-21 13:25:59.906 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:25:59.921 PDT</date>
+	<endDate>2007-03-21 13:25:59.921 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:26:06.328 PDT</date>
+	<endDate>2007-03-21 13:26:06.328 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createAttributesMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:26:07.343 PDT</date>
+	<endDate>2007-03-21 13:26:07.343 PDT</endDate>
+	<originId>null$item.label.&amp;Open Declaration&#x09;F3</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:26:08.62 PDT</date>
+	<endDate>2007-03-21 13:26:08.62 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:26:08.78 PDT</date>
+	<endDate>2007-03-21 13:26:08.78 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:26:16.890 PDT</date>
+	<endDate>2007-03-21 13:26:16.890 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:26:18.906 PDT</date>
+	<endDate>2007-03-21 13:26:18.906 PDT</endDate>
+	<originId>null$item.label.&amp;Open Declaration&#x09;F3</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:26:19.671 PDT</date>
+	<endDate>2007-03-21 13:26:19.671 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:26:19.703 PDT</date>
+	<endDate>2007-03-21 13:26:19.703 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: editorOpen</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:26:19.703 PDT</date>
+	<endDate>2007-03-21 13:26:19.703 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.JavaPerspective</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: editorOpen</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:26:20.218 PDT</date>
+	<endDate>2007-03-21 13:26:20.218 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:26:40.281 PDT</date>
+	<endDate>2007-03-21 13:26:40.281 PDT</endDate>
+	<originId>backardHistory$item.label..Back to DrawApplication.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:26:40.390 PDT</date>
+	<endDate>2007-03-21 13:26:40.390 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:26:40.406 PDT</date>
+	<endDate>2007-03-21 13:26:40.406 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:26:40.968 PDT</date>
+	<endDate>2007-03-21 13:26:40.968 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:26:50.453 PDT</date>
+	<endDate>2007-03-21 13:26:50.453 PDT</endDate>
+	<originId>forwardHistory$item.label..Forward to ChangeAttributeCommand.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:26:50.531 PDT</date>
+	<endDate>2007-03-21 13:26:50.531 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:26:50.546 PDT</date>
+	<endDate>2007-03-21 13:26:50.546 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:26:51.78 PDT</date>
+	<endDate>2007-03-21 13:26:51.78 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:22.156 PDT</date>
+	<endDate>2007-03-21 13:27:22.156 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:27:23.796 PDT</date>
+	<endDate>2007-03-21 13:27:23.796 PDT</endDate>
+	<originId>null$item.label.Ope&amp;n Type Hierarchy&#x09;F4</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:27:24.125 PDT</date>
+	<endDate>2007-03-21 13:27:24.125 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.JavaPerspective</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: actionSetShow</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:24.812 PDT</date>
+	<endDate>2007-03-21 13:27:24.812 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.TypeHierarchy</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{AbstractCommand.java[AbstractCommand</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:24.906 PDT</date>
+	<endDate>2007-03-21 13:27:24.906 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.TypeHierarchy</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{AbstractCommand.java[AbstractCommand~view</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:27:26.390 PDT</date>
+	<endDate>2007-03-21 13:27:26.390 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.JavaPerspective</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: actionSetShow</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:26.437 PDT</date>
+	<endDate>2007-03-21 13:27:26.437 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:26.453 PDT</date>
+	<endDate>2007-03-21 13:27:26.453 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:27:27.609 PDT</date>
+	<endDate>2007-03-21 13:27:27.609 PDT</endDate>
+	<originId>null$item.label.&amp;Open Declaration&#x09;F3</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:27.968 PDT</date>
+	<endDate>2007-03-21 13:27:27.968 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{AbstractCommand.java</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:27:27.984 PDT</date>
+	<endDate>2007-03-21 13:27:27.984 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: editorOpen</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:27:27.984 PDT</date>
+	<endDate>2007-03-21 13:27:27.984 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.JavaPerspective</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: editorOpen</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:28.515 PDT</date>
+	<endDate>2007-03-21 13:27:28.515 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{AbstractCommand.java[AbstractCommand~view</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:27:31.703 PDT</date>
+	<endDate>2007-03-21 13:27:31.703 PDT</endDate>
+	<originId>backardHistory$item.label..Back to ChangeAttributeCommand.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:31.765 PDT</date>
+	<endDate>2007-03-21 13:27:31.765 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:31.781 PDT</date>
+	<endDate>2007-03-21 13:27:31.781 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:27:32.312 PDT</date>
+	<endDate>2007-03-21 13:27:32.312 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:27:44.62 PDT</date>
+	<endDate>2007-03-21 13:27:44.62 PDT</endDate>
+	<originId>backardHistory$item.label..Back to DrawApplication.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:44.171 PDT</date>
+	<endDate>2007-03-21 13:27:44.171 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:27:44.718 PDT</date>
+	<endDate>2007-03-21 13:27:44.718 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:27:49.93 PDT</date>
+	<endDate>2007-03-21 13:27:49.93 PDT</endDate>
+	<originId>forwardHistory$item.label..Forward to ChangeAttributeCommand.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:49.171 PDT</date>
+	<endDate>2007-03-21 13:27:49.171 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:27:49.687 PDT</date>
+	<endDate>2007-03-21 13:27:49.687 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:27:53.703 PDT</date>
+	<endDate>2007-03-21 13:27:53.703 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:27:55.31 PDT</date>
+	<endDate>2007-03-21 13:27:55.31 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:27:56.265 PDT</date>
+	<endDate>2007-03-21 13:27:56.265 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:27:57.234 PDT</date>
+	<endDate>2007-03-21 13:27:57.234 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:27:58.312 PDT</date>
+	<endDate>2007-03-21 13:27:58.312 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:28:00.31 PDT</date>
+	<endDate>2007-03-21 13:28:00.31 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:00.609 PDT</date>
+	<endDate>2007-03-21 13:28:00.609 PDT</endDate>
+	<originId>null$item.label.&amp;Open Declaration&#x09;F3</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:00.796 PDT</date>
+	<endDate>2007-03-21 13:28:00.796 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{AbstractCommand.java[AbstractCommand~view</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:01.343 PDT</date>
+	<endDate>2007-03-21 13:28:01.343 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{AbstractCommand.java[AbstractCommand~AbstractCommand~QString;~QDrawingEditor;</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:01.359 PDT</date>
+	<endDate>2007-03-21 13:28:01.359 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{AbstractCommand.java[AbstractCommand~AbstractCommand~QString;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:19.234 PDT</date>
+	<endDate>2007-03-21 13:28:19.234 PDT</endDate>
+	<originId>backardHistory$item.label..Back to ChangeAttributeCommand.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:19.312 PDT</date>
+	<endDate>2007-03-21 13:28:19.312 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:19.328 PDT</date>
+	<endDate>2007-03-21 13:28:19.328 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:28:19.859 PDT</date>
+	<endDate>2007-03-21 13:28:19.859 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:20.390 PDT</date>
+	<endDate>2007-03-21 13:28:20.390 PDT</endDate>
+	<originId>backardHistory$item.label..Back to DrawApplication.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:20.500 PDT</date>
+	<endDate>2007-03-21 13:28:20.500 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:20.515 PDT</date>
+	<endDate>2007-03-21 13:28:20.515 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:28:21.93 PDT</date>
+	<endDate>2007-03-21 13:28:21.93 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:24.906 PDT</date>
+	<endDate>2007-03-21 13:28:24.906 PDT</endDate>
+	<originId>forwardHistory$item.label..Forward to ChangeAttributeCommand.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:24.984 PDT</date>
+	<endDate>2007-03-21 13:28:24.984 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:28:25.515 PDT</date>
+	<endDate>2007-03-21 13:28:25.515 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:27.171 PDT</date>
+	<endDate>2007-03-21 13:28:27.171 PDT</endDate>
+	<originId>backardHistory$item.label..Back to DrawApplication.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:27.265 PDT</date>
+	<endDate>2007-03-21 13:28:27.265 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>org.eclipse.mylar.java.relation.references</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:27.296 PDT</date>
+	<endDate>2007-03-21 13:28:27.296 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:28:27.890 PDT</date>
+	<endDate>2007-03-21 13:28:27.890 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.application{DrawApplication.java[DrawApplication~createArrowMenu</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:29.359 PDT</date>
+	<endDate>2007-03-21 13:28:29.359 PDT</endDate>
+	<originId>null$item.label.&amp;Open Declaration&#x09;F3</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:28:29.609 PDT</date>
+	<endDate>2007-03-21 13:28:29.609 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:28:30.125 PDT</date>
+	<endDate>2007-03-21 13:28:30.125 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~ChangeAttributeCommand~QString;~QFigureAttributeConstant;~QObject;~QDrawingEditor;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:32.546 PDT</date>
+	<endDate>2007-03-21 13:28:32.546 PDT</endDate>
+	<originId>org.eclipse.jdt.debug.ui.actions.BreakpointRulerActionDelegate$item.label.Toggle Brea&amp;kpoint</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:38.281 PDT</date>
+	<endDate>2007-03-21 13:28:38.281 PDT</endDate>
+	<originId>org.eclipse.debug.internal.ui.actions.DebugDropDownAction$item.label..Debug NetApp</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:38.468 PDT</date>
+	<endDate>2007-03-21 13:28:38.468 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:39.828 PDT</date>
+	<endDate>2007-03-21 13:28:39.828 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:41.515 PDT</date>
+	<endDate>2007-03-21 13:28:41.515 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:56.765 PDT</date>
+	<endDate>2007-03-21 13:28:56.765 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:56.828 PDT</date>
+	<endDate>2007-03-21 13:28:56.828 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:28:59.640 PDT</date>
+	<endDate>2007-03-21 13:28:59.640 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:28:59.906 PDT</date>
+	<endDate>2007-03-21 13:28:59.906 PDT</endDate>
+	<originId>org.eclipse.debug.ui.DebugPerspective</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: actionSetShow</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:29:00.125 PDT</date>
+	<endDate>2007-03-21 13:29:00.125 PDT</endDate>
+	<originId>org.eclipse.debug.ui.DebugPerspective</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:29:01.812 PDT</date>
+	<endDate>2007-03-21 13:29:01.812 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.standard{ChangeAttributeCommand.java[ChangeAttributeCommand~execute</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:05.484 PDT</date>
+	<endDate>2007-03-21 13:29:05.484 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepInto$item.label..Step Into</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:08.703 PDT</date>
+	<endDate>2007-03-21 13:29:08.703 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:10.359 PDT</date>
+	<endDate>2007-03-21 13:29:10.359 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:14.625 PDT</date>
+	<endDate>2007-03-21 13:29:14.625 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:16.718 PDT</date>
+	<endDate>2007-03-21 13:29:16.718 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:18.265 PDT</date>
+	<endDate>2007-03-21 13:29:18.265 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:27.125 PDT</date>
+	<endDate>2007-03-21 13:29:27.125 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:30.406 PDT</date>
+	<endDate>2007-03-21 13:29:30.406 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepInto$item.label..Step Into</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:29:30.750 PDT</date>
+	<endDate>2007-03-21 13:29:30.750 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: editorOpen</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>preference</kind>
+	<date>2007-03-21 13:29:30.750 PDT</date>
+	<endDate>2007-03-21 13:29:30.750 PDT</endDate>
+	<originId>org.eclipse.debug.ui.DebugPerspective</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>perspective changed: editorOpen</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:34.250 PDT</date>
+	<endDate>2007-03-21 13:29:34.250 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepReturn$item.label..Step Return</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:35.406 PDT</date>
+	<endDate>2007-03-21 13:29:35.406 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepInto$item.label..Step Into</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:41.484 PDT</date>
+	<endDate>2007-03-21 13:29:41.484 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:44.500 PDT</date>
+	<endDate>2007-03-21 13:29:44.500 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:29:46.937 PDT</date>
+	<endDate>2007-03-21 13:29:46.937 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:29:47.609 PDT</date>
+	<endDate>2007-03-21 13:29:47.609 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:52.750 PDT</date>
+	<endDate>2007-03-21 13:29:52.750 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:54.265 PDT</date>
+	<endDate>2007-03-21 13:29:54.265 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:29:55.828 PDT</date>
+	<endDate>2007-03-21 13:29:55.828 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:30:00.93 PDT</date>
+	<endDate>2007-03-21 13:30:00.93 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.stepOver$item.label..Step Over</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:30:03.953 PDT</date>
+	<endDate>2007-03-21 13:30:03.953 PDT</endDate>
+	<originId>org.eclipse.debug.ui.debugview.toolbar.terminate$item.label..Terminate</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:11.125 PDT</date>
+	<endDate>2007-03-21 13:30:11.125 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:11.828 PDT</date>
+	<endDate>2007-03-21 13:30:11.828 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:30:12.718 PDT</date>
+	<endDate>2007-03-21 13:30:12.718 PDT</endDate>
+	<originId>null$item.label.&amp;Open Declaration&#x09;F3</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:30:13.406 PDT</date>
+	<endDate>2007-03-21 13:30:13.406 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_START</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:30:19.406 PDT</date>
+	<endDate>2007-03-21 13:30:19.406 PDT</endDate>
+	<originId>backardHistory$item.label..Back to PolyLineFigure.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:30:19.968 PDT</date>
+	<endDate>2007-03-21 13:30:19.968 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:22.593 PDT</date>
+	<endDate>2007-03-21 13:30:22.593 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:23.765 PDT</date>
+	<endDate>2007-03-21 13:30:23.765 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:29.31 PDT</date>
+	<endDate>2007-03-21 13:30:29.31 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:30.812 PDT</date>
+	<endDate>2007-03-21 13:30:30.812 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:33.140 PDT</date>
+	<endDate>2007-03-21 13:30:33.140 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:30:34.281 PDT</date>
+	<endDate>2007-03-21 13:30:34.281 PDT</endDate>
+	<originId>null$item.label.&amp;Open Declaration&#x09;F3</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:30:34.968 PDT</date>
+	<endDate>2007-03-21 13:30:34.968 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_START</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:30:40.703 PDT</date>
+	<endDate>2007-03-21 13:30:40.703 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_END</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:30:40.937 PDT</date>
+	<endDate>2007-03-21 13:30:40.937 PDT</endDate>
+	<originId>org.eclipse.ui.edit.copy</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:30:42.46 PDT</date>
+	<endDate>2007-03-21 13:30:42.46 PDT</endDate>
+	<originId>backardHistory$item.label..Back to PolyLineFigure.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:30:42.625 PDT</date>
+	<endDate>2007-03-21 13:30:42.625 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:44.437 PDT</date>
+	<endDate>2007-03-21 13:30:44.437 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:30:44.453 PDT</date>
+	<endDate>2007-03-21 13:30:44.453 PDT</endDate>
+	<originId>org.eclipse.ui.edit.paste</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:45.312 PDT</date>
+	<endDate>2007-03-21 13:30:45.312 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:46.375 PDT</date>
+	<endDate>2007-03-21 13:30:46.375 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:47.515 PDT</date>
+	<endDate>2007-03-21 13:30:47.515 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:48.203 PDT</date>
+	<endDate>2007-03-21 13:30:48.203 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:48.984 PDT</date>
+	<endDate>2007-03-21 13:30:48.984 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:50.812 PDT</date>
+	<endDate>2007-03-21 13:30:50.812 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:53.296 PDT</date>
+	<endDate>2007-03-21 13:30:53.296 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:55.890 PDT</date>
+	<endDate>2007-03-21 13:30:55.890 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:30:59.687 PDT</date>
+	<endDate>2007-03-21 13:30:59.687 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:04.312 PDT</date>
+	<endDate>2007-03-21 13:31:04.312 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:05.15 PDT</date>
+	<endDate>2007-03-21 13:31:05.15 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:06.125 PDT</date>
+	<endDate>2007-03-21 13:31:06.125 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:07.328 PDT</date>
+	<endDate>2007-03-21 13:31:07.328 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:12.875 PDT</date>
+	<endDate>2007-03-21 13:31:12.875 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:13.984 PDT</date>
+	<endDate>2007-03-21 13:31:13.984 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:31:17.937 PDT</date>
+	<endDate>2007-03-21 13:31:17.937 PDT</endDate>
+	<originId>org.eclipse.debug.internal.ui.actions.RunDropDownAction$item.label..Run NetApp</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:31:18.109 PDT</date>
+	<endDate>2007-03-21 13:31:18.109 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:31:19.453 PDT</date>
+	<endDate>2007-03-21 13:31:19.453 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:31:20.625 PDT</date>
+	<endDate>2007-03-21 13:31:20.625 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:31:36.328 PDT</date>
+	<endDate>2007-03-21 13:31:36.328 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:38.156 PDT</date>
+	<endDate>2007-03-21 13:31:38.156 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:42.187 PDT</date>
+	<endDate>2007-03-21 13:31:42.187 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:46.828 PDT</date>
+	<endDate>2007-03-21 13:31:46.828 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:49.640 PDT</date>
+	<endDate>2007-03-21 13:31:49.640 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:51.31 PDT</date>
+	<endDate>2007-03-21 13:31:51.31 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:51.765 PDT</date>
+	<endDate>2007-03-21 13:31:51.765 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:31:52.125 PDT</date>
+	<endDate>2007-03-21 13:31:52.125 PDT</endDate>
+	<originId>org.eclipse.ui.edit.copy</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:31:53.500 PDT</date>
+	<endDate>2007-03-21 13:31:53.500 PDT</endDate>
+	<originId>org.eclipse.ui.edit.paste</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:54.187 PDT</date>
+	<endDate>2007-03-21 13:31:54.187 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:55.718 PDT</date>
+	<endDate>2007-03-21 13:31:55.718 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:57.296 PDT</date>
+	<endDate>2007-03-21 13:31:57.296 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:31:58.734 PDT</date>
+	<endDate>2007-03-21 13:31:58.734 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:32:03.812 PDT</date>
+	<endDate>2007-03-21 13:32:03.812 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:32:08.687 PDT</date>
+	<endDate>2007-03-21 13:32:08.687 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:32:09.453 PDT</date>
+	<endDate>2007-03-21 13:32:09.453 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:32:10.890 PDT</date>
+	<endDate>2007-03-21 13:32:10.890 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:32:21.703 PDT</date>
+	<endDate>2007-03-21 13:32:21.703 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:32:22.93 PDT</date>
+	<endDate>2007-03-21 13:32:22.93 PDT</endDate>
+	<originId>org.eclipse.ui.edit.copy</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:32:27.515 PDT</date>
+	<endDate>2007-03-21 13:32:27.515 PDT</endDate>
+	<originId>org.eclipse.ui.edit.paste</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:32:28.187 PDT</date>
+	<endDate>2007-03-21 13:32:28.187 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:32:40.187 PDT</date>
+	<endDate>2007-03-21 13:32:40.187 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:32:41.343 PDT</date>
+	<endDate>2007-03-21 13:32:41.343 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:32:41.968 PDT</date>
+	<endDate>2007-03-21 13:32:41.968 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:32:43.218 PDT</date>
+	<endDate>2007-03-21 13:32:43.218 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:01.578 PDT</date>
+	<endDate>2007-03-21 13:33:01.578 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:33:03.578 PDT</date>
+	<endDate>2007-03-21 13:33:03.578 PDT</endDate>
+	<originId>org.eclipse.ui.edit.paste</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:04.234 PDT</date>
+	<endDate>2007-03-21 13:33:04.234 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:06.78 PDT</date>
+	<endDate>2007-03-21 13:33:06.78 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:07.250 PDT</date>
+	<endDate>2007-03-21 13:33:07.250 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:10.296 PDT</date>
+	<endDate>2007-03-21 13:33:10.296 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:11.656 PDT</date>
+	<endDate>2007-03-21 13:33:11.656 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:16.15 PDT</date>
+	<endDate>2007-03-21 13:33:16.15 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:18.906 PDT</date>
+	<endDate>2007-03-21 13:33:18.906 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:20.875 PDT</date>
+	<endDate>2007-03-21 13:33:20.875 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:25.468 PDT</date>
+	<endDate>2007-03-21 13:33:25.468 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:26.343 PDT</date>
+	<endDate>2007-03-21 13:33:26.343 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:29.859 PDT</date>
+	<endDate>2007-03-21 13:33:29.859 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:33.156 PDT</date>
+	<endDate>2007-03-21 13:33:33.156 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:34.437 PDT</date>
+	<endDate>2007-03-21 13:33:34.437 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:36.359 PDT</date>
+	<endDate>2007-03-21 13:33:36.359 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:37.0 PDT</date>
+	<endDate>2007-03-21 13:33:37.0 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:46.109 PDT</date>
+	<endDate>2007-03-21 13:33:46.109 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:47.46 PDT</date>
+	<endDate>2007-03-21 13:33:47.46 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:33:47.687 PDT</date>
+	<endDate>2007-03-21 13:33:47.687 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:34:04.0 PDT</date>
+	<endDate>2007-03-21 13:34:04.0 PDT</endDate>
+	<originId>org.eclipse.debug.internal.ui.actions.RunDropDownAction$item.label..Run NetApp</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:34:04.187 PDT</date>
+	<endDate>2007-03-21 13:34:04.187 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:34:04.953 PDT</date>
+	<endDate>2007-03-21 13:34:04.953 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:34:06.109 PDT</date>
+	<endDate>2007-03-21 13:34:06.109 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:34:48.375 PDT</date>
+	<endDate>2007-03-21 13:34:48.375 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:34:49.46 PDT</date>
+	<endDate>2007-03-21 13:34:49.46 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:34:56.140 PDT</date>
+	<endDate>2007-03-21 13:34:56.140 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:34:57.218 PDT</date>
+	<endDate>2007-03-21 13:34:57.218 PDT</endDate>
+	<originId>null$item.label.&amp;Open Declaration&#x09;F3</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>menu</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:34:57.937 PDT</date>
+	<endDate>2007-03-21 13:34:57.937 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure^ARROW_TIP_BOTH</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:35:06.187 PDT</date>
+	<endDate>2007-03-21 13:35:06.187 PDT</endDate>
+	<originId>backardHistory$item.label..Back to PolyLineFigure.java</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>selection</kind>
+	<date>2007-03-21 13:35:06.734 PDT</date>
+	<endDate>2007-03-21 13:35:06.734 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:35:07.890 PDT</date>
+	<endDate>2007-03-21 13:35:07.890 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:35:15.515 PDT</date>
+	<endDate>2007-03-21 13:35:15.515 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:35:16.343 PDT</date>
+	<endDate>2007-03-21 13:35:16.343 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:35:19.390 PDT</date>
+	<endDate>2007-03-21 13:35:19.390 PDT</endDate>
+	<originId>org.eclipse.ui.edit.cut</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:35:20.109 PDT</date>
+	<endDate>2007-03-21 13:35:20.109 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:35:22.0 PDT</date>
+	<endDate>2007-03-21 13:35:22.0 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:35:22.250 PDT</date>
+	<endDate>2007-03-21 13:35:22.250 PDT</endDate>
+	<originId>org.eclipse.ui.edit.paste</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:35:22.921 PDT</date>
+	<endDate>2007-03-21 13:35:22.921 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:35:25.187 PDT</date>
+	<endDate>2007-03-21 13:35:25.187 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:35:27.31 PDT</date>
+	<endDate>2007-03-21 13:35:27.31 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:35:27.890 PDT</date>
+	<endDate>2007-03-21 13:35:27.890 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:35:29.218 PDT</date>
+	<endDate>2007-03-21 13:35:29.218 PDT</endDate>
+	<originId>org.eclipse.debug.internal.ui.actions.RunDropDownAction$item.label..Run NetApp</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:35:29.437 PDT</date>
+	<endDate>2007-03-21 13:35:29.437 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:35:30.281 PDT</date>
+	<endDate>2007-03-21 13:35:30.281 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:35:31.406 PDT</date>
+	<endDate>2007-03-21 13:35:31.406 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:35:55.218 PDT</date>
+	<endDate>2007-03-21 13:35:55.218 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:35:56.671 PDT</date>
+	<endDate>2007-03-21 13:35:56.671 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:07.343 PDT</date>
+	<endDate>2007-03-21 13:36:07.343 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:09.906 PDT</date>
+	<endDate>2007-03-21 13:36:09.906 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:12.546 PDT</date>
+	<endDate>2007-03-21 13:36:12.546 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:14.0 PDT</date>
+	<endDate>2007-03-21 13:36:14.0 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:16.125 PDT</date>
+	<endDate>2007-03-21 13:36:16.125 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:16.312 PDT</date>
+	<endDate>2007-03-21 13:36:16.312 PDT</endDate>
+	<originId>org.eclipse.ui.edit.copy</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:17.562 PDT</date>
+	<endDate>2007-03-21 13:36:17.562 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:18.46 PDT</date>
+	<endDate>2007-03-21 13:36:18.46 PDT</endDate>
+	<originId>org.eclipse.ui.edit.text.contentAssist.proposals</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:18.265 PDT</date>
+	<endDate>2007-03-21 13:36:18.265 PDT</endDate>
+	<originId>org.eclipse.ui.edit.paste</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:18.953 PDT</date>
+	<endDate>2007-03-21 13:36:18.953 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:19.609 PDT</date>
+	<endDate>2007-03-21 13:36:19.609 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:20.500 PDT</date>
+	<endDate>2007-03-21 13:36:20.500 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:22.718 PDT</date>
+	<endDate>2007-03-21 13:36:22.718 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:22.921 PDT</date>
+	<endDate>2007-03-21 13:36:22.921 PDT</endDate>
+	<originId>org.eclipse.ui.edit.copy</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:24.0 PDT</date>
+	<endDate>2007-03-21 13:36:24.0 PDT</endDate>
+	<originId>org.eclipse.ui.edit.paste</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:24.687 PDT</date>
+	<endDate>2007-03-21 13:36:24.687 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:26.859 PDT</date>
+	<endDate>2007-03-21 13:36:26.859 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:29.421 PDT</date>
+	<endDate>2007-03-21 13:36:29.421 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:30.281 PDT</date>
+	<endDate>2007-03-21 13:36:30.281 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:32.375 PDT</date>
+	<endDate>2007-03-21 13:36:32.375 PDT</endDate>
+	<originId>org.eclipse.ui.edit.copy</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:32.421 PDT</date>
+	<endDate>2007-03-21 13:36:32.421 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:33.687 PDT</date>
+	<endDate>2007-03-21 13:36:33.687 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:34.156 PDT</date>
+	<endDate>2007-03-21 13:36:34.156 PDT</endDate>
+	<originId>org.eclipse.ui.edit.paste</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:34.812 PDT</date>
+	<endDate>2007-03-21 13:36:34.812 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:36.437 PDT</date>
+	<endDate>2007-03-21 13:36:36.437 PDT</endDate>
+	<originId>org.eclipse.ui.edit.copy</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:36.484 PDT</date>
+	<endDate>2007-03-21 13:36:36.484 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:37.500 PDT</date>
+	<endDate>2007-03-21 13:36:37.500 PDT</endDate>
+	<originId>org.eclipse.ui.edit.paste</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:36:37.671 PDT</date>
+	<endDate>2007-03-21 13:36:37.671 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:38.703 PDT</date>
+	<endDate>2007-03-21 13:36:38.703 PDT</endDate>
+	<originId>org.eclipse.debug.internal.ui.actions.RunDropDownAction$item.label..Run NetApp</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:38.859 PDT</date>
+	<endDate>2007-03-21 13:36:38.859 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:39.671 PDT</date>
+	<endDate>2007-03-21 13:36:39.671 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:36:41.78 PDT</date>
+	<endDate>2007-03-21 13:36:41.78 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:37:00.218 PDT</date>
+	<endDate>2007-03-21 13:37:00.218 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>activated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:37:00.890 PDT</date>
+	<endDate>2007-03-21 13:37:00.890 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:37:12.937 PDT</date>
+	<endDate>2007-03-21 13:37:12.937 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:37:13.406 PDT</date>
+	<endDate>2007-03-21 13:37:13.406 PDT</endDate>
+	<originId>org.eclipse.ui.edit.cut</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:37:14.109 PDT</date>
+	<endDate>2007-03-21 13:37:14.109 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:37:14.921 PDT</date>
+	<endDate>2007-03-21 13:37:14.921 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:37:15.640 PDT</date>
+	<endDate>2007-03-21 13:37:15.640 PDT</endDate>
+	<originId>org.eclipse.ui.edit.paste</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>keybinding</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:37:16.312 PDT</date>
+	<endDate>2007-03-21 13:37:16.312 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:37:18.500 PDT</date>
+	<endDate>2007-03-21 13:37:18.500 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:37:19.375 PDT</date>
+	<endDate>2007-03-21 13:37:19.375 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>edit</kind>
+	<date>2007-03-21 13:37:20.812 PDT</date>
+	<endDate>2007-03-21 13:37:20.812 PDT</endDate>
+	<originId>org.eclipse.jdt.ui.CompilationUnitEditor</originId>
+	<structureKind>java</structureKind>
+	<structureHandle>=JHotDraw/src&lt;org.jhotdraw.figures{PolyLineFigure.java[PolyLineFigure~setAttribute~QFigureAttributeConstant;~QObject;</structureHandle>
+	<navigation>null</navigation>
+	<delta>null</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:37:22.625 PDT</date>
+	<endDate>2007-03-21 13:37:22.625 PDT</endDate>
+	<originId>org.eclipse.debug.internal.ui.actions.RunDropDownAction$item.label..Run NetApp</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>toolbar</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+<interactionEvent>
+	<kind>command</kind>
+	<date>2007-03-21 13:37:22.796 PDT</date>
+	<endDate>2007-03-21 13:37:22.796 PDT</endDate>
+	<originId>org.eclipse.ui.internal.WorkbenchWindow@25979305</originId>
+	<structureKind>null</structureKind>
+	<structureHandle>null</structureHandle>
+	<navigation>null</navigation>
+	<delta>deactivated</delta>
+	<interestContribution>1.0</interestContribution>
+</interactionEvent>
+</user9>

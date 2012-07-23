@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+    <extension
+         name="Mylyn User Study Example"
+         point="org.eclipse.ui.startup">
+       <startup
+             class="navclus.userinterface.monitor.Plugin$MylynUseContextStartup"></startup>
+    </extension>
+    <extension
+          point="org.eclipse.jdt.ui.javaEditorTextHovers">
+       <hover
+             activate="false"
+             class="navclus.userinterface.monitor.selections.SelectionTextHover"
+             id="ca.ubc.cs.salee.monitor.usecontext.hover1">
+       </hover>
+    </extension>   
+   
+</plugin> 
