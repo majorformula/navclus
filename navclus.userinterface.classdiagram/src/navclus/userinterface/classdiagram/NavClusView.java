@@ -66,7 +66,7 @@ import org.eclipse.ui.part.ViewPart;
 
 public class NavClusView extends ViewPart {
 
-	public static final String ID = "ca.ubc.cs.salee.classdiagram.view"; //$NON-NLS-1$	
+	public static final String ID = "NavClusView"; //$NON-NLS-1$	
     public final static int DRAW_NAVIGATIONAL_RELATIONSHIP  = 10;
     public final static int DRAW_STRUCTURAL_RELATIONSHIP  = 20;
 	

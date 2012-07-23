@@ -17,7 +17,8 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.ui.editors;bundle-version="3.8.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Export-Package: navclus.userinterface.classdiagram.actions,
+Export-Package: navclus.userinterface.classdiagram,
+ navclus.userinterface.classdiagram.actions,
  navclus.userinterface.classdiagram.classfigure,
  navclus.userinterface.classdiagram.java.analyzer,
  navclus.userinterface.classdiagram.utils

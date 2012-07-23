@@ -2,7 +2,7 @@ package navclus.userinterface.classdiagram.test;
 
 import junit.framework.TestCase;
 
-import navclus.userinterface.classdiagram.Viewer;
+import navclus.userinterface.classdiagram.NavClusView;
 import navclus.userinterface.classdiagram.testutil.SourceModel;
 import navclus.userinterface.classdiagram.testutil.UIModel;
 
@@ -33,7 +33,7 @@ public class BasicTest02_OpenCloseView extends TestCase
 	 *
 	 * @see com.qualityeclipse.favorites.views.FavoritesView
 	 */
-	private Viewer testView;
+	private NavClusView testView;
 
 	/**
    /**
@@ -58,7 +58,7 @@ public class BasicTest02_OpenCloseView extends TestCase
 		// Initialize the test fixture for each test 
 		// that is run.
 		waitForJobs();
-		testView = (Viewer) 
+		testView = (NavClusView) 
 		PlatformUI
 		.getWorkbench()
 		.getActiveWorkbenchWindow()
@@ -104,8 +104,8 @@ public class BasicTest02_OpenCloseView extends TestCase
 	public void testView1() {
 //		testView.setDrawOption(new DrawOption_Navigation());
 		
-		UIModel uimodel = new UIModel();
-		IFile file1 = SourceModel.getFile("edu.buffalo.cse.green", "src-Green\\edu\\buffalo\\cse\\green", "PlugIn.java");		
+		UIModel uimodel = new UIModel();		
+		IFile file1 = SourceModel.getFile("org.jhotdraw.samples.net", "src\\org\\jhotdraw\\samples\\net", "NetApp.java");	
 		uimodel.openJavaFile(file1);
 		delay(3000);
 		

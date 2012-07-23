@@ -59,7 +59,7 @@ public class JavaEditorPartListener2 implements IPartListener2 {
 		final IJavaElement javaelement = javaeditorutil.getJavaElement(partRef);
 		if (javaelement == null) return;		
 		if (javaelement != null) {
-			System.out.println("open:" + javaelement);
+//			System.out.println("open:" + javaelement);
 			try {
 				this.rootmodel.openCU((ICompilationUnit) javaelement);
 				(new RedrawAction(viewer)).run();
