@@ -2,7 +2,7 @@ package navclus.userinterface.classdiagram.view.test;
 
 import junit.framework.TestCase;
 
-import navclus.userinterface.classdiagram.Viewer;
+import navclus.userinterface.classdiagram.NavClusView;
 
 import org.eclipse.core.runtime.jobs.Job;
 import org.eclipse.swt.widgets.Display;
@@ -20,14 +20,14 @@ import org.eclipse.ui.PlatformUI;
 public class ClassViewTest extends TestCase
 {
    private static final String VIEW_ID = 
-	   "ca.ubc.cs.salee.classdiagram.view";
+	   "navclus.userinterface.classdiagram.navclusview";
 
    /**
     * The object that is being tested.
     *
     * @see com.qualityeclipse.favorites.views.FavoritesView
     */
-   private Viewer testView;
+   private NavClusView testView;
 
    /**
    /**
@@ -52,7 +52,7 @@ public class ClassViewTest extends TestCase
       // Initialize the test fixture for each test 
       // that is run.
       waitForJobs();
-      testView = (Viewer) 
+      testView = (NavClusView) 
          PlatformUI
             .getWorkbench()
             .getActiveWorkbenchWindow()

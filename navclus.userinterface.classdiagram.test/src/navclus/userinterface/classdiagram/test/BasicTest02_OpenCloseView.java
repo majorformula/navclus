@@ -26,7 +26,7 @@ import org.eclipse.ui.PlatformUI;
 public class BasicTest02_OpenCloseView extends TestCase
 {
 	private static final String VIEW_ID = 
-		"ca.ubc.cs.salee.classdiagram.view";
+		"navclus.userinterface.classdiagram.navclusview";
 
 	/**
 	 * The object that is being tested.
@@ -105,7 +105,7 @@ public class BasicTest02_OpenCloseView extends TestCase
 //		testView.setDrawOption(new DrawOption_Navigation());
 		
 		UIModel uimodel = new UIModel();		
-		IFile file1 = SourceModel.getFile("org.jhotdraw.samples.net", "src\\org\\jhotdraw\\samples\\net", "NetApp.java");	
+		IFile file1 = SourceModel.getFile("JHotDraw", "src\\org\\jhotdraw\\samples\\net", "NetApp.java");	
 		uimodel.openJavaFile(file1);
 		delay(3000);
 		

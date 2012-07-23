@@ -2,7 +2,7 @@ package navclus.userinterface.classdiagram.view.test;
 
 import junit.framework.TestCase;
 
-import navclus.userinterface.classdiagram.Viewer;
+import navclus.userinterface.classdiagram.NavClusView;
 import navclus.userinterface.classdiagram.testutil.SourceModel;
 import navclus.userinterface.classdiagram.testutil.UIModel;
 
@@ -32,14 +32,14 @@ import org.eclipse.ui.part.FileEditorInput;
 public class JavaEditorPartListenerTest extends TestCase
 {
 	private static final String VIEW_ID = 
-		"ca.ubc.cs.salee.classdiagram.view";
+		"navclus.userinterface.classdiagram.navclusview";
 
 	/**
 	 * The object that is being tested.
 	 *
 	 * @see com.qualityeclipse.favorites.views.FavoritesView
 	 */
-	private Viewer testView;
+	private NavClusView testView;
 
 	/**
    /**
@@ -64,7 +64,7 @@ public class JavaEditorPartListenerTest extends TestCase
 		// Initialize the test fixture for each test 
 		// that is run.
 		waitForJobs();
-		testView = (Viewer) 
+		testView = (NavClusView) 
 		PlatformUI
 		.getWorkbench()
 		.getActiveWorkbenchWindow()
@@ -103,7 +103,8 @@ public class JavaEditorPartListenerTest extends TestCase
 	 */
 	public void testView1() {
 		UIModel uimodel = new UIModel();
-		IFile file = SourceModel.getFile("edu.buffalo.cse.green", "src-Green\\edu\\buffalo\\cse\\green", "PlugIn.java");		
+		IFile file = SourceModel.getFile("JHotDraw", "src\\org\\jhotdraw\\samples\\net", "NetApp.java");
+		
 		uimodel.openJavaFile(file);
 		delay(3000);
 		

@@ -2,7 +2,7 @@ package navclus.userinterface.classdiagram.view.test;
 
 import junit.framework.TestCase;
 
-import navclus.userinterface.classdiagram.Viewer;
+import navclus.userinterface.classdiagram.NavClusView;
 import navclus.userinterface.classdiagram.testutil.SourceModel;
 import navclus.userinterface.classdiagram.testutil.UIModel;
 import navclus.userinterface.classdiagram.utils.TypeHistory;
@@ -28,7 +28,7 @@ public class PreviousTypeTest extends TestCase {
 	 *
 	 * @see com.qualityeclipse.favorites.views.FavoritesView
 	 */
-	private Viewer testView;
+	private NavClusView testView;
 	
 	@Override
 	protected void setUp() throws Exception {
@@ -36,7 +36,7 @@ public class PreviousTypeTest extends TestCase {
 		// Initialize the test fixture for each test 
 		// that is run.
 		waitForJobs();
-		testView = (Viewer) 
+		testView = (NavClusView) 
 		PlatformUI
 		.getWorkbench()
 		.getActiveWorkbenchWindow()

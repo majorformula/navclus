@@ -10,7 +10,7 @@ public class BasicTest {
 
 		// $JUnit-BEGIN$
 		suite.addTestSuite(BasicTest01_OpenCloseOpen.class);
-//		suite.addTestSuite(BasicTest02_OpenCloseView.class);
+		suite.addTestSuite(BasicTest02_OpenCloseView.class);
 		// $JUnit-END$
 
 		return suite;

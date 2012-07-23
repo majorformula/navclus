@@ -35,7 +35,7 @@ import org.eclipse.ui.part.FileEditorInput;
 public class BasicTest01_OpenCloseOpen extends TestCase
 {
 	private static final String VIEW_ID = 
-		"NavClusView";
+		"navclus.userinterface.classdiagram.navclusview";
 
 	/**
 	 * The object that is being tested.
@@ -106,12 +106,8 @@ public class BasicTest01_OpenCloseOpen extends TestCase
 	 */
 	public void testView1() {
 		UIModel uimodel = new UIModel();
-//		IFile file = SourceModel.getFile("org.jhotdraw.samples.net", "src\\org\\jhotdraw\\samples\\net", "NetApp.java");
-		IProject myProject = ResourcesPlugin.getWorkspace().getRoot().getProject("JHotDraw");
-		IFolder myFolder = myProject.getFolder("src\\org\\jhotdraw\\samples\\net");
-		
-		IFile file = myFolder.getFile("NetApp.java");
-		
+		IFile file = SourceModel.getFile("JHotDraw", "src\\org\\jhotdraw\\samples\\net", "NetApp.java");
+	
 		uimodel.openJavaFile(file);
 		delay(2000);
 		
