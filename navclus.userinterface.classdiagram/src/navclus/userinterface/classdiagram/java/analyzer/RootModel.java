@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import navclus.userinterface.classdiagram.NavClusView;
 import navclus.userinterface.classdiagram.PlugIn;
 import navclus.userinterface.classdiagram.java.manager.ConnectionNode;
 import navclus.userinterface.classdiagram.java.manager.RootNode;

@@ -24,7 +24,7 @@
                ratio="0.5"
                relative="org.eclipse.ui.views.ProblemView"
                relationship="right"
-               id="NavClusView">
+               id="navclus.userinterface.classdiagram.navclusview">
          </view>
       </perspectiveExtension>
    </extension>
@@ -34,5 +34,14 @@
             file="contexts.xml">
       </contexts>
    </extension>
+
+    <extension
+          point="org.eclipse.jdt.ui.javaEditorTextHovers">
+       <hover
+             activate="false"
+             class="navclus.userinterface.monitor.listeners.SelectionTextHover"
+             id="cnavclus.userinterface.monitor.usecontext.hover1">
+       </hover>
+    </extension>
 
 </plugin>
