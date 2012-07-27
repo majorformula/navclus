@@ -19,26 +19,24 @@ import org.eclipse.jface.viewers.Viewer;
 
 
 public class RedrawAction extends Action implements IAction {
-
-	protected NavClusView viewer;
+	
 //	protected boolean bLog;
 	
-	public RedrawAction(NavClusView viewer) {
+	public RedrawAction() {
 		super("", AS_RADIO_BUTTON);	
-		this.viewer = viewer;	
 //		this.bLog = true;
 	}
 
 	public void run() {
-		int drawOption = viewer.getDrawOption();		
+		int drawOption = NavClusView.getDefault().getDrawOption();		
 		if (drawOption < 0) return;		
-		System.out.println("RedrawAction: action" + viewer.getDrawOption());
+		System.out.println("RedrawAction: action" + NavClusView.getDefault().getDrawOption());
 
 //		if (bLog) {
 //			viewer.setDrawOption(this.drawOption);			
 //		}
 		
-		RootNode rootNode = viewer.getRootNode();		
+		RootNode rootNode = NavClusView.getDefault().getRootNode();		
 		if (rootNode == null)
 			return;
 				
@@ -61,7 +59,7 @@ public class RedrawAction extends Action implements IAction {
 			System.out.println("It's error in run function of RedrawAction");
 		}
 						
-		viewer.getG().applyLayout();					
+		NavClusView.getDefault().getG().applyLayout();					
 //		log();
 	}
 

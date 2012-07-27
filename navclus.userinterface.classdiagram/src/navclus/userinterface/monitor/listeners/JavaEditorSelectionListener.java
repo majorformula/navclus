@@ -29,16 +29,6 @@ import navclus.userinterface.classdiagram.utils.JavaEditorUtil;
 
 public class JavaEditorSelectionListener implements ISelectionListener {
 
-	NavClusView viewer;	
-	RootModel rootmodel;	
-	JavaEditorUtil javaeditorutil;
-
-	public JavaEditorSelectionListener(NavClusView viewer) {
-		this.viewer = viewer;	
-		this.rootmodel = viewer.getRootModel();	
-		this.javaeditorutil = new JavaEditorUtil();		
-	}
-
 	public void selectionChanged(IWorkbenchPart part,
 			ISelection selection) {
 				
@@ -49,7 +39,7 @@ public class JavaEditorSelectionListener implements ISelectionListener {
 		
 		boolean bUpdate = false;
 
-		IJavaElement topElement = javaeditorutil.getJavaElement(part);		
+		IJavaElement topElement = JavaEditorUtil.getJavaElement(part);		
 		if (topElement == null) return;
 		
 		if (selection instanceof TextSelection) {
@@ -71,7 +61,7 @@ public class JavaEditorSelectionListener implements ISelectionListener {
 //					System.out.println("---: " + locElement.getElementName());
 				
 				// show the elements in a class figure
-				bUpdate = rootmodel.addElement(topType, locElement);	
+				bUpdate = NavClusView.getDefault().getRootModel().addElement(topType, locElement);	
 //				System.out.println("loc Element is: " + locElement.getElementName());
 
 				if (bUpdate) {

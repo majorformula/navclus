@@ -16,12 +16,10 @@ import org.eclipse.zest.core.widgets.GraphConnection;
 
 public class NodeMapper {
 
-	protected NavClusView viewer; 
 	public HashMap<TypeNode, UMLNode> nodetable; 	// salee
 	
 	
-	public NodeMapper(NavClusView viewer) {
-		this.viewer = viewer;
+	public NodeMapper() {
 		this.nodetable = new LinkedHashMap<TypeNode, UMLNode>(); // salee	
 	}
 
@@ -80,7 +78,7 @@ public class NodeMapper {
 	public UMLNode create(TypeNode typenode) {	
 		UMLNode curNode;
 		
-		curNode = new UMLNode(viewer.getG(), SWT.NONE, 
+		curNode = new UMLNode(NavClusView.getDefault().getG(), SWT.NONE, 
 		 		  (new ClassFigureCreator()).createClassFigure(typenode));					
 		curNode.setText((typenode.getType().getHandleIdentifier()));
 									
@@ -92,7 +90,7 @@ public class NodeMapper {
 	public UMLNode create(TypeNode typenode, Point curPoint) {
 		UMLNode curNode;
 		
-		curNode = new UMLNode(viewer.getG(), SWT.NONE, 
+		curNode = new UMLNode(NavClusView.getDefault().getG(), SWT.NONE, 
 		 		  (new ClassFigureCreator()).createClassFigure(typenode));					
 		curNode.setText((typenode.getType().getHandleIdentifier()));
 		curNode.setLocation(curPoint.x, curPoint.y);

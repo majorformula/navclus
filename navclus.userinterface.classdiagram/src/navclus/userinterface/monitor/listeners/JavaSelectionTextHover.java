@@ -19,7 +19,7 @@ import org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover;
 import org.eclipse.jface.text.IRegion;
 import org.eclipse.jface.text.ITextViewer;
 
-public class SelectionTextHover extends JavaSourceHover {
+public class JavaSelectionTextHover extends JavaSourceHover {
 
 	@Override
 	public String getHoverInfo(ITextViewer textViewer, IRegion hoverRegion) {

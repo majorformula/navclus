@@ -1,5 +1,5 @@
 
-package navclus.userinterface.monitor.listeners;
+package navclus.userinterface.classdiagram.listeners;
 
 import java.util.Iterator;
 import java.util.List;
@@ -25,25 +25,23 @@ import org.eclipse.ui.PartInitException;
 
 public class GraphMouseListener implements org.eclipse.draw2d.MouseListener {
 
-	NavClusView viewer ;	
-	
-	public GraphMouseListener(NavClusView viewer) {
+
+	public GraphMouseListener() {
 		super();
-		this.viewer = viewer;	
 	}
 
 	public void mouseDoubleClicked(MouseEvent me) {
 			
-		if (viewer == null) return; 
-		if (viewer.getG() == null) return;
+		if (NavClusView.getDefault() == null) return; 
+		if (NavClusView.getDefault().getG() == null) return;
 		
-		RootNode root = viewer.getRootNode();	
+		RootNode root = NavClusView.getDefault().getRootNode();	
 		
 		Point mousePoint = new Point(me.x, me.y);
-		viewer.getG().getRootLayer().translateToRelative(mousePoint);
-		viewer.getG().getRootLayer().translateFromParent(mousePoint);
+		NavClusView.getDefault().getG().getRootLayer().translateToRelative(mousePoint);
+		NavClusView.getDefault().getG().getRootLayer().translateFromParent(mousePoint);
 		
-		List selectedItems = viewer.getG().getSelection();
+		List selectedItems = NavClusView.getDefault().getG().getSelection();
 		
 		if (selectedItems.size() > 0) {
 			Iterator iterator = selectedItems.iterator();
@@ -83,13 +81,12 @@ public class GraphMouseListener implements org.eclipse.draw2d.MouseListener {
 	}
 	
 	private void locateCode(UMLNode node, IType type, int mine) throws JavaModelException, PartInitException {
-		JavaEditorUtil javaeditorutil = new JavaEditorUtil();		
-		IJavaElement element = javaeditorutil.getJavaElement(type);
+		IJavaElement element = JavaEditorUtil.getJavaElement(type);
 		if (element == null) return;
 		
 		IEditorPart javaEditor;
-		if (javaeditorutil.IsExistInTab(element))
-			javaEditor = javaeditorutil.bringToTop(element);
+		if (JavaEditorUtil.IsExistInTab(element))
+			javaEditor = JavaEditorUtil.bringToTop(element);
 		else
 			javaEditor = JavaUI.openInEditor(element);
 				

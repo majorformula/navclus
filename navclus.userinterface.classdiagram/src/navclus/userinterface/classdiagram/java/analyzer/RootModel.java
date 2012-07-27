@@ -1,22 +1,10 @@
-/*******************************************************************************
- * Copyright (c) 2007 UBC, SPL
- * All rights reserved.
- * 
- * Contributors:
- *     Seonah Lee - initial implementation
- *******************************************************************************/
-
 package navclus.userinterface.classdiagram.java.analyzer;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
 
-import navclus.userinterface.classdiagram.NavClusView;
 import navclus.userinterface.classdiagram.PlugIn;
 import navclus.userinterface.classdiagram.java.manager.ConnectionNode;
 import navclus.userinterface.classdiagram.java.manager.RootNode;
-import navclus.userinterface.classdiagram.java.manager.STATE;
 import navclus.userinterface.classdiagram.java.manager.TypeNode;
 import navclus.userinterface.classdiagram.utils.FlagRedraw;
 import navclus.userinterface.classdiagram.utils.TypeHistory;
@@ -31,7 +19,6 @@ import org.eclipse.jdt.core.IType;
 import org.eclipse.jdt.core.JavaModelException;
 import org.eclipse.jface.dialogs.MessageDialog;
 
-
 public class RootModel {
 
 	private RootNode rootNode; 	
@@ -39,8 +26,7 @@ public class RootModel {
 	protected RelationModel relationmodel;	
 	protected RelationAnalyzer relationanalyzer;
 
-	public RootModel(RootNode rootNode) {
-		
+	public RootModel(RootNode rootNode) {		
 		this.rootNode = rootNode;
 		this.typemodel = new TypeModel(rootNode);	
 		this.relationanalyzer = new RelationAnalyzer(rootNode);
@@ -56,17 +42,13 @@ public class RootModel {
 	}
 	
 	public boolean contain(IType curType) {
-		if (rootNode.contain(curType))
-			return true;
-		else
-			return false;		
+		return rootNode.contain(curType);	
 	}
 
 	public void cleanUp() {
 		rootNode.dispose();
 	}
 	
-
 	public RelationAnalyzer getRelationModel() {
 		return relationanalyzer;
 	}
@@ -76,8 +58,7 @@ public class RootModel {
 	}
 	
 	public void addJavaFile(IJavaElement _element) throws JavaModelException {	
-		TypeHistory.setCurElement(_element);
-				
+		TypeHistory.setCurElement(_element);				
 		if (_element instanceof ICompilationUnit) {
 			this.openCU((ICompilationUnit) _element);
 		} else if (_element instanceof IClassFile) {
@@ -97,9 +78,7 @@ public class RootModel {
 	/**
 	 * Opens a compilation unit and all the types in it.
 	 */
-	public void openCU(ICompilationUnit cu)	
-	throws JavaModelException {	
-		
+	public void openCU(ICompilationUnit cu)	throws JavaModelException {			
 		// not including the embedded class
 		IType[] types = cu.getTypes(); 
 
@@ -217,18 +196,17 @@ public class RootModel {
 		rootNode.removeNodewithChildren(curType);
 	}
 	
-	///////////////////////////from type model
-	// called by PatternPresenter 
-	public void addElement(IJavaElement locElement) {
+	///////////////////////////from type model 
+	////////////////////////// called by PatternPresenter 
+	public void addMember(IJavaElement locElement) {
 		if (locElement == null) return;
 
 		TypeNode locNode = getTypeNode(locElement);
 		if (locNode == null) return;
 
-		if (add(locNode, locElement)) {
+		if (addMember(locNode, locElement)) {
 //			rootNode.synchronizeNodesinView();
-		}
-	
+		}	
 		return;
 	}
 	
@@ -249,7 +227,7 @@ public class RootModel {
 	}
 	
 
-	private boolean add(TypeNode locNode, IJavaElement locElement) {		
+	private boolean addMember(TypeNode locNode, IJavaElement locElement) {		
 		if (locElement instanceof IMethod) {
 			return locNode.addMethod((IMethod) locElement);
 		}

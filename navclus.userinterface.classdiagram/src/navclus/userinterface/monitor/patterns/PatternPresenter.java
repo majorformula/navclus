@@ -9,25 +9,21 @@ import org.eclipse.jdt.core.IType;
 
 public class PatternPresenter {
 
-	NavClusView viewer;
-
 	RootModel rootmodel;
 
 	public PatternPresenter() {
-		this.viewer = NavClusView.getDefault(); // I change the 	
+		this.rootmodel = NavClusView.getDefault().getRootModel(); // I change the 	
 	}
 
 	public void show(IJavaElement javaElement) {
-		this.rootmodel = viewer.getRootModel();
-		System.out.println(this.rootmodel);
-		// clear the view first
+//      clear the view first
 //		this.clear();
 
 		switch (javaElement.getElementType()) {
 		case (IJavaElement.METHOD):
 		case (IJavaElement.FIELD):
 			// show the elements in a class figure
-			rootmodel.addElement(javaElement);
+			rootmodel.addMember(javaElement);
 			break;
 		case (IJavaElement.TYPE):
 			rootmodel.createType((IType) javaElement);
@@ -35,8 +31,7 @@ public class PatternPresenter {
 		}
 
 		rootmodel.drawNodes();
-
-		(new RedrawAction(viewer)).run();
+		(new RedrawAction()).run();
 	}
 
 //	public void show(List<FrequentElement> selectedElements, List<FrequentLine> selectedLines, int threshold) {
@@ -91,6 +86,6 @@ public class PatternPresenter {
 	public void clear() {
 		rootmodel.clearModelinView();
 
-		(new RedrawAction(viewer)).run();
+		(new RedrawAction()).run();
 	}
 }

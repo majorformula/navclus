@@ -39,7 +39,7 @@
           point="org.eclipse.jdt.ui.javaEditorTextHovers">
        <hover
              activate="false"
-             class="navclus.userinterface.monitor.listeners.SelectionTextHover"
+             class="navclus.userinterface.monitor.listeners.JavaSelectionTextHover"
              id="cnavclus.userinterface.monitor.usecontext.hover1">
        </hover>
     </extension>

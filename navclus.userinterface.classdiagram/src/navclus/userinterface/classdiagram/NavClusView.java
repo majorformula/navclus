@@ -3,10 +3,10 @@ package navclus.userinterface.classdiagram;
 import navclus.userinterface.classdiagram.actions.RedrawAction;
 import navclus.userinterface.classdiagram.java.analyzer.RootModel;
 import navclus.userinterface.classdiagram.java.manager.RootNode;
+import navclus.userinterface.classdiagram.listeners.GraphMouseListener;
 import navclus.userinterface.classdiagram.utils.FlagRedraw;
 import navclus.userinterface.classdiagram.utils.JavaEditorUtil;
 import navclus.userinterface.classdiagram.utils.TypeHistory;
-import navclus.userinterface.monitor.listeners.GraphMouseListener;
 import navclus.userinterface.monitor.listeners.JavaEditorPartListener2;
 import navclus.userinterface.monitor.listeners.JavaEditorSelectionListener;
 import navclus.userinterface.monitor.patterns.PatternSelector;
@@ -120,9 +120,9 @@ private RootModel rootmodel = null;
 		g.setConnectionStyle(ZestStyles.CONNECTIONS_DIRECTED); 		
 		
 		// Error: we should stop the listener before closing this program
-		g.getLightweightSystem().getRootFigure().addMouseListener(new GraphMouseListener(this));
+		g.getLightweightSystem().getRootFigure().addMouseListener(new GraphMouseListener());
 
-		rootmodel = new RootModel(new RootNode(this));
+		rootmodel = new RootModel(new RootNode());
 				
 		makeActions();				// for menu
 		contributeToActionBars();	// for menu
@@ -226,16 +226,15 @@ private RootModel rootmodel = null;
 		this.selectionKeeper = new SelectionKeeper();
 		
 		// Open & Close Files
-		javaeditorpartlistner2 = new JavaEditorPartListener2(this);
+		javaeditorpartlistner2 = new JavaEditorPartListener2();
 		WINDOW.getPartService().addPartListener(javaeditorpartlistner2);
-
 
 //		// change java elements
 //		javachangelistener = new JavaChangeListener(this);
 //		JavaCore.addElementChangedListener(javachangelistener, ElementChangedEvent.POST_RECONCILE);
 //		
 		// Select Text
-		javaeditorselectionlistener = new JavaEditorSelectionListener(this);
+		javaeditorselectionlistener = new JavaEditorSelectionListener();
 		WINDOW.getSelectionService().addPostSelectionListener(javaeditorselectionlistener);		
 //		
 //		// Jobs
@@ -259,7 +258,7 @@ private RootModel rootmodel = null;
 //				new Image(Display.getDefault(), 
 //						this.getClass().getResourceAsStream("admin1_face.gif"))));
 
-		action20 = new RedrawAction(this);   
+		action20 = new RedrawAction();   
 		action20.setText("Show Structural Information");
 		action20.setImageDescriptor(ImageDescriptor.createFromImage(
 				new Image(Display.getDefault(), 
@@ -296,13 +295,11 @@ private RootModel rootmodel = null;
 		
 		IWorkbenchPage page = WINDOW.getActivePage();
 		if (page == null) return;
-
-		JavaEditorUtil javaeditorutil = new JavaEditorUtil();
-		
+	
 		IEditorReference [] editorreferences = page.getEditorReferences();
 		for (IEditorReference editorreference: editorreferences) {
 			IJavaElement element = 
-				javaeditorutil.getJavaElement(editorreference);
+				JavaEditorUtil.getJavaElement(editorreference);
 
 			if (element == null) 
 				continue;
@@ -315,7 +312,7 @@ private RootModel rootmodel = null;
 				FlagRedraw.setSync(true);
 			}
 		}		
-		IJavaElement finalJavaElement = javaeditorutil.getTopElement();
+		IJavaElement finalJavaElement = JavaEditorUtil.getTopElement();
 		TypeHistory.setCurElement(finalJavaElement);
 	}
 	

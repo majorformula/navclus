@@ -30,13 +30,13 @@ import org.eclipse.ui.PartInitException;
 
 public class JavaEditorUtil {
 
-	public boolean IsExistInTab(IType type) {
+	public static boolean IsExistInTab(IType type) {
 		if (type == null) return false;
 		
 		return IsExistInTab(type.getTypeRoot());		
 	}
 	
-	public boolean IsExistInTab(IJavaElement javaElement) {
+	public static boolean IsExistInTab(IJavaElement javaElement) {
 		if (javaElement == null) return false;
 
 		IWorkbenchWindow WINDOW = PlugIn.getDefault().getWorkbench().getActiveWorkbenchWindow();
@@ -57,7 +57,7 @@ public class JavaEditorUtil {
 		return false;
 	}
 	
-	public IJavaElement getJavaElement(IEditorReference editorreference) {		
+	public static IJavaElement getJavaElement(IEditorReference editorreference) {		
 		if (editorreference == null) return null; 
 
 		if (editorreference.getId().equals(JavaUI.ID_CU_EDITOR)) {	
@@ -83,7 +83,7 @@ public class JavaEditorUtil {
 	}
 	
 	
-	public IJavaElement getJavaElement(IWorkbenchPartReference partRef) {
+	public static IJavaElement getJavaElement(IWorkbenchPartReference partRef) {
 		if (partRef == null) return null;
 
 		if (partRef.getId().equals(JavaUI.ID_CU_EDITOR)) {				
@@ -101,12 +101,12 @@ public class JavaEditorUtil {
 			return null;
 	}
 		
-	public IJavaElement getJavaElement(IType type) {
+	public static IJavaElement getJavaElement(IType type) {
 		return type.getTypeRoot();
 	}
 	
 	
-	public IEditorPart bringToTop(IJavaElement javaElement) {
+	public static IEditorPart bringToTop(IJavaElement javaElement) {
 		IWorkbenchWindow WINDOW = PlugIn.getDefault().getWorkbench().getActiveWorkbenchWindow();
 		if (WINDOW.getActivePage() == null) return null;
 
@@ -130,7 +130,7 @@ public class JavaEditorUtil {
 	}
 	
 	
-	public IJavaElement getTopElement() {
+	public static IJavaElement getTopElement() {
 
 		IWorkbenchWindow WINDOW = PlugIn.getDefault().getWorkbench().getActiveWorkbenchWindow();
 
@@ -143,7 +143,7 @@ public class JavaEditorUtil {
 		return null;
 	}
 	
-	public IJavaElement getJavaElement(IEditorPart editor) {
+	public static IJavaElement getJavaElement(IEditorPart editor) {
 		if (editor == null) return null;
 
 		if (editor.getEditorSite().getId().equals(JavaUI.ID_CU_EDITOR)) {	
@@ -161,7 +161,7 @@ public class JavaEditorUtil {
 			return null;
 	}
 	
-	public IJavaElement getJavaElement(IWorkbenchPart editor) {
+	public static IJavaElement getJavaElement(IWorkbenchPart editor) {
 		if (editor == null) return null;
 
 		if (editor.getSite().getId().equals(JavaUI.ID_CU_EDITOR)) {				
@@ -179,7 +179,7 @@ public class JavaEditorUtil {
 			return null;
 	}
 
-	public IType getType(IJavaElement javaelement) {
+	public static IType getType(IJavaElement javaelement) {
 		if (javaelement instanceof IType) {
 			return (IType) javaelement;
 		}

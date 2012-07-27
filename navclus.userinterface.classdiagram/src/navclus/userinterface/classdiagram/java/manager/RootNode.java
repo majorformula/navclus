@@ -4,11 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import navclus.userinterface.classdiagram.NavClusView;
-import navclus.userinterface.classdiagram.actions.RedrawAction;
-import navclus.userinterface.classdiagram.classfigure.ClassFigureCreator;
 import navclus.userinterface.classdiagram.classfigure.UMLNode;
 
-import org.eclipse.draw2d.IFigure;
 import org.eclipse.draw2d.geometry.Point;
 import org.eclipse.jdt.core.IType;
 import org.eclipse.swt.SWT;
@@ -16,11 +13,10 @@ import org.eclipse.swt.widgets.Display;
 import org.eclipse.zest.core.widgets.GraphConnection;
 import org.eclipse.zest.core.widgets.GraphNode;
 
-//import ca.ubc.cs.salee.classdiagram.actions.RedrawActionwoLayout;
+
 
 public class RootNode {
 
-	protected NavClusView viewer; 
 	private TypeNodeList typeNodeList;
 	private ConnectionList structuralRelationList;
 	private ConnectionList navigationalRelationList;	
@@ -28,12 +24,11 @@ public class RootNode {
 	
 	boolean isDirty = false;
 
-	public RootNode(NavClusView viewer) {
-		this.viewer = viewer;
+	public RootNode() {
 		this.typeNodeList = new TypeNodeList();
 		this.structuralRelationList = new ConnectionList();
 		this.navigationalRelationList = new ConnectionList();	
-		this.nodeMapper = new NodeMapper(viewer);
+		this.nodeMapper = new NodeMapper();
 	}
 
 	public ArrayList<TypeNode> getTypeNodes() {
@@ -181,7 +176,7 @@ public class RootNode {
 
 		
 	public void removeAllGraphConnections() {
-		List<GraphConnection> connections = viewer.getG().getConnections();		
+		List<GraphConnection> connections = NavClusView.getDefault().getG().getConnections();		
 		
 		while (connections.size() > 0) {
 			GraphConnection connection = (GraphConnection) connections.get(0);
@@ -192,7 +187,7 @@ public class RootNode {
 	}
 	
 	public void removeAllGraphNodes() {	
-		List<GraphNode> nodes = viewer.getG().getNodes();		
+		List<GraphNode> nodes = NavClusView.getDefault().getG().getNodes();		
 		
 		while (nodes.size() > 0) {
 			GraphNode node = (GraphNode) nodes.get(0);
@@ -266,7 +261,7 @@ public class RootNode {
 			if ((sourceNode == null) || (destinationNode == null) )continue;			
 			
 			// draw a connection
-			GraphConnection curConnection = new GraphConnection(viewer.getG(), SWT.NONE, 
+			GraphConnection curConnection = new GraphConnection(NavClusView.getDefault().getG(), SWT.NONE, 
 												sourceNode, destinationNode);			
 			curConnection.setText(connectionNode.getTag());
 			curConnection.setArrowTip(connectionNode.getArrowTip());
@@ -308,7 +303,7 @@ public class RootNode {
 			if ((sourceNode == null) || (destinationNode == null) )continue;			
 			
 			// draw a connection
-			GraphConnection curConnection = new GraphConnection(viewer.getG(), SWT.NONE, 
+			GraphConnection curConnection = new GraphConnection(NavClusView.getDefault().getG(), SWT.NONE, 
 												sourceNode, destinationNode);			
 			curConnection.setText(connectionNode.getTag());
 			curConnection.setArrowTip(connectionNode.getArrowTip());
@@ -355,7 +350,7 @@ public class RootNode {
 //	}
 	
 	public void clear() {
-		if (viewer == null) return;	
+		if (NavClusView.getDefault() == null) return;	
 		typeNodeList.clear();
 		structuralRelationList.clear();
 		navigationalRelationList.clear();
@@ -366,7 +361,6 @@ public class RootNode {
 	}
 	
 	public void dispose() {
-		viewer = null;
 		typeNodeList.dispose();
 		structuralRelationList.dispose();
 		navigationalRelationList.dispose();
