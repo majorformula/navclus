@@ -1,14 +1,8 @@
-/*******************************************************************************
- * @author Seonah Lee, July 21, 2009
- *******************************************************************************/
-
 package navclus.userinterface.monitor.selections;
 
 import navclus.userinterface.monitor.selections.data.SelectionList;
 
-import org.eclipse.core.runtime.Plugin;
 import org.eclipse.jdt.core.IJavaElement;
-import org.eclipse.jdt.core.JavaCore;
 
 public class SelectionKeeper {
 

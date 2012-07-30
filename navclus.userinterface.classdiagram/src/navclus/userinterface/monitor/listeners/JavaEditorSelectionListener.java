@@ -1,12 +1,4 @@
 package navclus.userinterface.monitor.listeners;
-/*******************************************************************************
- * Copyright (c) 2007 UBC, SPL
- * All rights reserved.
- * 
- * Contributors:
- *     Seonah Lee - initial implementation
- *******************************************************************************/
-
 
 import org.eclipse.jdt.core.ICodeAssist;
 import org.eclipse.jdt.core.IJavaElement;
@@ -21,6 +13,8 @@ import org.eclipse.ui.IWorkbenchPart;
 
 import navclus.userinterface.*;
 import navclus.userinterface.classdiagram.NavClusView;
+import navclus.userinterface.classdiagram.actions.RedrawAction;
+import navclus.userinterface.classdiagram.actions.RedrawActionwoLayout;
 //import navclus.userinterface.classdiagram.actions.RedrawActionwoLayout;
 import navclus.userinterface.classdiagram.java.analyzer.RootModel;
 import navclus.userinterface.classdiagram.utils.FlagRedraw;
@@ -47,7 +41,6 @@ public class JavaEditorSelectionListener implements ISelectionListener {
 			if (selectedtext.getStartLine() < 1)
 				return;
 			
-
 			
 			IType topType = ((ITypeRoot) topElement).findPrimaryType();
 			try {
@@ -55,13 +48,13 @@ public class JavaEditorSelectionListener implements ISelectionListener {
 				IJavaElement locElement = ((ITypeRoot) topElement).getElementAt(selectedtext.getOffset());
 				IJavaElement[] javaelements = ((ICodeAssist) topElement).codeSelect(selectedtext.getOffset(), selectedtext.getLength());
 
-				
-//				System.out.println("selectionChanged: " );
-//				if (locElement != null)
-//					System.out.println("---: " + locElement.getElementName());
+				if (locElement != null)
+					System.out.println("selectionChanged: " + locElement.getElementName());
 				
 				// show the elements in a class figure
-				bUpdate = NavClusView.getDefault().getRootModel().addElement(topType, locElement);	
+				bUpdate = NavClusView.getDefault().getRootModel().addElement(topType, locElement);
+				NavClusView.getDefault().getSelectionKeeper().addSelection(locElement);
+				(new RedrawAction()).run();
 //				System.out.println("loc Element is: " + locElement.getElementName());
 
 				if (bUpdate) {
