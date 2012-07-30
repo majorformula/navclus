@@ -44,7 +44,7 @@ import org.eclipse.zest.layouts.algorithms.HorizontalTreeLayoutAlgorithm;
 //import ca.ubc.cs.salee.classdiagram.listeners.JavaChangeListener;
 //import ca.ubc.cs.salee.classdiagram.listeners.JobEventListener;
 
-public class NavClusView extends ViewPart {
+public class NavClusView extends ViewPart { 
 
 	public static final String ID = "navclus.userinterface.classdiagram.navclusview"; //$NON-NLS-1$	
     public final static int DRAW_NAVIGATIONAL_RELATIONSHIP  = 10;
