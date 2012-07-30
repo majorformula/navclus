@@ -73,5 +73,11 @@ public class SelectionList {
 	public int size() {
 		return selectionList.size();
 	}
+	
+	public void print() {
+		for (Selection selection : selectionList) {
+			System.out.println("-- selection: " + selection.getElement().getElementName());
+		}
+	}
 
 }
