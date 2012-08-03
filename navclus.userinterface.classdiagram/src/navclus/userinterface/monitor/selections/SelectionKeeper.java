@@ -41,9 +41,7 @@ public class SelectionKeeper {
 			}
 			selectionList.add(element);
 			System.out.println("added: " + element.getElementName());
-
-//			System.out.println("added: " + element.getElementName() + " " + element);
-//			printSelectionIfTrigger();
+			printSelectionIfTrigger();
 //			printSelectionIfFull();
 		} catch (Exception e) {
 			System.err.println("Error in SelectionKeeper.addSelection():" + e.getMessage());
@@ -125,14 +123,15 @@ public class SelectionKeeper {
 //		}
 //	}
 //
-//	private void printSelectionIfTrigger() {
-//		if (selectionList.getMarkedElements().size() < 3) {
-//			return;
-//		}
-//
-//		// print the use context:
-//		selectionList.printMarkedElements();
-//
+	private void printSelectionIfTrigger() {
+		if (selectionList.size() < 3) {
+			return;
+		}
+
+		// print the use context:
+		System.out.println("context");
+		selectionList.print();
+
 //		Display.getDefault().asyncExec(new Runnable() {
 //			public void run() {
 //				Plugin.getDefault()
@@ -141,10 +140,10 @@ public class SelectionKeeper {
 ////        		System.out.println("hovering: " + curr.getElementName());
 //			}
 //		});
-//
-//		// clear the screen;
-//
+
+		// clear the screen;
+
 //		selectionList.clear();
-//	}
+	}
 
 }
