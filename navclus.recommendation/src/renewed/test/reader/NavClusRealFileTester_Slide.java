@@ -8,7 +8,7 @@ import java.io.PrintStream;
 import renewed.evaluation.answer.EditHitTotalResults;
 import renewed.evaluation.answer.TotalResults;
 import renewed.in.reader.RealTxTSegmenter;
-import renewed.invertedindex.InvertedIndexer;
+import renewed.invertedindex.MacroClusterIndexer;
 import renewed.lib.cluster.macroclusters.MacroClusterManager;
 import renewed.lib.cluster.microclusters.MicroClusterManager;
 import renewed.lib.cluster.microclusters.MicroVector;
@@ -45,7 +45,7 @@ public class NavClusRealFileTester_Slide {
 
 			MicroClusterManager microClusterManager = new MicroClusterManager();	
 			MacroClusterManager macroClusterManager = new MacroClusterManager();
-			InvertedIndexer macroClusterIndexer = new InvertedIndexer();
+			MacroClusterIndexer macroClusterIndexer = new MacroClusterIndexer();
 			MicroVector microVector = new MicroVector();
 			
 			for (int i = 0; i < list.length - 1; i++) {						

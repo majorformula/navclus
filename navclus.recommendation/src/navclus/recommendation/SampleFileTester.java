@@ -5,11 +5,10 @@ import java.io.FilenameFilter;
 
 import renewed.evaluation.answer.TotalResults;
 import renewed.in.reader.SampleXMLEditedSegmenter;
-import renewed.invertedindex.InvertedIndexer;
+import renewed.invertedindex.MacroClusterIndexer;
 import renewed.lib.cluster.macroclusters.MacroClusterManager;
 import renewed.lib.cluster.microclusters.MicroClusterManager;
 import renewed.lib.cluster.microclusters.MicroVector;
-import renewed.lib.recommender.XMLSampleRecommender;
 
 public class SampleFileTester {
 
@@ -33,7 +32,7 @@ public class SampleFileTester {
 
 			MicroClusterManager microClusterManager = new MicroClusterManager();	
 			MacroClusterManager macroClusterManager = new MacroClusterManager();
-			InvertedIndexer macroClusterIndexer = new InvertedIndexer();
+			MacroClusterIndexer macroClusterIndexer = new MacroClusterIndexer();
 			MicroVector microVector = new MicroVector();
 
 			for (int i = 0; i < 11 /*list.length -1*/; i++) {				

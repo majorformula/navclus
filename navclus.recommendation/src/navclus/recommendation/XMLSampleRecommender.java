@@ -1,27 +1,13 @@
-package renewed.lib.recommender;
+package navclus.recommendation;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FilenameFilter;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.Set;
-import java.util.TreeSet;
 
-import javax.xml.namespace.QName;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.stream.XMLEventReader;
-import javax.xml.stream.XMLInputFactory;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.Attribute;
-import javax.xml.stream.events.Characters;
-import javax.xml.stream.events.EndElement;
-import javax.xml.stream.events.StartElement;
-import javax.xml.stream.events.XMLEvent;
-import javax.xml.transform.Result;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -29,13 +15,11 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import renewed.data.elements.ElementManager;
-import renewed.evaluation.answer.TotalResults;
 import renewed.in.reader.StructureHandlePrinter;
 import renewed.invertedindex.DocListNode;
-import renewed.invertedindex.InvertedIndexer;
+import renewed.invertedindex.MacroClusterIndexer;
 import renewed.invertedindex.SortedLinkedList;
-import renewed.lib.cluster.macroclusters.MacroClusterManager;
+import renewed.lib.recommender.StringQueue;
 
 
 public class XMLSampleRecommender {
@@ -48,7 +32,7 @@ public class XMLSampleRecommender {
 		return nValue.getNodeValue();    
 	}
 
-	public void recommend(String directory, String file, InvertedIndexer macroClusterIndexer, MacroClusterManager macroClusterManager, TotalResults totalResults) {		
+	public void recommend(String directory, String file, MacroClusterIndexer macroClusterIndexer) {		
 		// 컨텍스트를 위한 자료 구조를 만든다.	
 		int nContext = 3; 
 		StringQueue contextQueue = new StringQueue(nContext); 
@@ -94,7 +78,7 @@ public class XMLSampleRecommender {
 				if ((contextQueue.size() >= nContext) && (bRecommend == true)) {	
 					// making a recommendation			
 					Set<String> contextVisitSet = contextQueue.toSet();
-					SortedLinkedList<DocListNode> answer = retrieve(contextQueue, macroClusterIndexer, macroClusterManager);
+					SortedLinkedList<DocListNode> answer = retrieve(contextQueue, macroClusterIndexer);
 					
 					bRecommend = false;
 					contextQueue.clear();
@@ -116,7 +100,7 @@ public class XMLSampleRecommender {
 		}
 	}
 	
-	public SortedLinkedList<DocListNode> retrieve(StringQueue contextQueue, InvertedIndexer macroClusterIndexer, MacroClusterManager macroClusterManager) {
+	public SortedLinkedList<DocListNode> retrieve(StringQueue contextQueue, MacroClusterIndexer macroClusterIndexer) {
 		SortedLinkedList<DocListNode> answer = macroClusterIndexer.retrieve(contextQueue.getStringQueue());
 		print("retrieve answer", answer);
 		return answer;

@@ -22,7 +22,7 @@ import renewed.evaluation.answer.SetOperator;
 import renewed.evaluation.answer.TotalResults;
 import renewed.in.reader.StructureHandlePrinter;
 import renewed.invertedindex.DocListNode;
-import renewed.invertedindex.InvertedIndexer;
+import renewed.invertedindex.MacroClusterIndexer;
 import renewed.invertedindex.SortedLinkedList;
 import renewed.lib.cluster.macroclusters.MacroClusterManager;
 import renewed.lib.cluster.similaritymatrix.CosineSimilarityCalculator;
@@ -31,7 +31,7 @@ public class NavClusTxTRecommender_EditHit {
 
 	public void recommend(String directory, 
 			String file, 
-			InvertedIndexer macroClusterIndexer, 
+			MacroClusterIndexer macroClusterIndexer, 
 			MacroClusterManager macroClusterManager, 
 			EditHitTotalResults totalResults) {		
 
@@ -96,7 +96,7 @@ public class NavClusTxTRecommender_EditHit {
 		}		
 	}
 	
-	public SortedLinkedList<DocListNode> retrieve(ElementManager query, InvertedIndexer macroClusterIndexer, MacroClusterManager macroClusterManager) {
+	public SortedLinkedList<DocListNode> retrieve(ElementManager query, MacroClusterIndexer macroClusterIndexer, MacroClusterManager macroClusterManager) {
 		LinkedList<String> words = new LinkedList<String>();		
 		for (String word: query.getElementSet()) {
 			words.add(word);

@@ -8,7 +8,7 @@ import java.util.Vector;
 import renewed.data.elements.Element;
 import renewed.data.elements.ElementManager;
 import renewed.invertedindex.DocListNode;
-import renewed.invertedindex.InvertedIndexer;
+import renewed.invertedindex.MacroClusterIndexer;
 import renewed.invertedindex.SortedLinkedList;
 import renewed.lib.cluster.microclusters.MicroClusterManager;
 import renewed.lib.cluster.microclusters.MicroVector;
@@ -33,7 +33,7 @@ public class MacroClusterManager {
 		}
 	}
 
-	public void deletefromIndex(Integer parentKey, InvertedIndexer macroClusterIndexer) {
+	public void deletefromIndex(Integer parentKey, MacroClusterIndexer macroClusterIndexer) {
 		macroClusterIndexer.delete(parentKey);
 		macroClusterIndexer.decreaseNumberOfDocuments(); // #doc --
 	}
@@ -46,7 +46,7 @@ public class MacroClusterManager {
 		return macroHashmap;
 	}
 	
-	public void insort2Index(Integer parentKey, ElementManager maxManager, InvertedIndexer macroClusterIndexer) {
+	public void insort2Index(Integer parentKey, ElementManager maxManager, MacroClusterIndexer macroClusterIndexer) {
 		for (Element element: maxManager.getVector()) {
 			macroClusterIndexer.insort(element.getName(), parentKey, element.getCount());
 		}
@@ -136,7 +136,7 @@ public class MacroClusterManager {
 		return macroHashmap.size();
 	}
 		
-	public InvertedIndexer create(MicroClusterManager microClusterManager, MicroVector microVector, InvertedIndexer macroClusterIndexer) {
+	public MacroClusterIndexer create(MicroClusterManager microClusterManager, MicroVector microVector, MacroClusterIndexer macroClusterIndexer) {
 		for (int j = 0; j < microVector.getGroupVector().size(); j++) {
 //			System.out.println("Group: " + j);
 			newMacroManager = new ElementManager();
@@ -154,78 +154,78 @@ public class MacroClusterManager {
 		return macroClusterIndexer;		
 	}
 
-	public InvertedIndexer update(MicroClusterManager microClusterManager, double threshold, InvertedIndexer macroClusterIndexer) {
-		
-		CosineSimilarityCalculator calculator = new CosineSimilarityCalculator();
-
-		v.addAll(microClusterManager.values()); // v ...
-		Collections.sort(v, new SizeComparator());
-		
-//		Set<String> microKeySet = microClusterManager.keySet();		
-//		for (String microKey: microKeySet) {
-//			ElementManager microManager = microClusterManager.get(microKey);
-		for (ElementManager microManager: v)	{		
-//			System.out.println(microManager.size());
-			// no compute in this case: 0 = none, 1 = modified, 2 = inserted
-			// in case of "no change..."
-				double maxOverlap = 0;
-				Integer maxKey = -1;			
-				Set<Integer> macroKeySet = macroHashmap.keySet();		
-				for (Integer macroKey: macroKeySet) {
-					ElementManager macroManager = macroHashmap.get(macroKey);
-
-					// compute the similarity
-					if (macroManager == null) System.out.println(macroKey);
-					double value = calculator.CosineSimilarity(microManager, macroManager);
-
-					if (value > maxOverlap) {
-						maxOverlap = value;
-						maxKey = macroKey;
-					}
-				}			
-
-				Integer parentKey = -1;
-				if (maxOverlap >= threshold) {
-					// update: merge this with existing ones...
-					if (maxKey == -1) continue;
-					ElementManager maxManager = macroHashmap.get(maxKey);								
-					maxManager.merge(microManager);
-
-					maxManager.addChild();
-					parentKey = maxKey;
-
-					maxManager.modified();
-					macroHashmap.put(parentKey, maxManager);
-
-					// update an indexer
-					if (maxManager.getChildren() == 2) {
-						// 새 자료 추가
-						insort2Index(maxKey, maxManager, macroClusterIndexer);
-					}
-					else if (maxManager.getChildren() > 2) {
-						// 기존 자료 삭제
-						deletefromIndex(maxKey, macroClusterIndexer);
-						// 새 자료 추가
-						insort2Index(maxKey, maxManager, macroClusterIndexer);
-					}
-				}
-				else {
-					// insert: create a new one...
-					newMacroManager = new ElementManager();
-					newMacroManager.merge(microManager);
-
-					newMacroManager.addChild();								
-					parentKey = macroHashmap.size() + 1;
-
-					newMacroManager.inserted();
-					macroHashmap.put(parentKey, newMacroManager);
-					// insert no indexer
-				}
-
-				microManager.setParentKey(parentKey);					
-		}
-		v.clear();
-		return macroClusterIndexer;
-	}
+//	public InvertedIndexer update(MicroClusterManager microClusterManager, double threshold, InvertedIndexer macroClusterIndexer) {
+//		
+//		CosineSimilarityCalculator calculator = new CosineSimilarityCalculator();
+//
+//		v.addAll(microClusterManager.values()); // v ...
+//		Collections.sort(v, new SizeComparator());
+//		
+////		Set<String> microKeySet = microClusterManager.keySet();		
+////		for (String microKey: microKeySet) {
+////			ElementManager microManager = microClusterManager.get(microKey);
+//		for (ElementManager microManager: v)	{		
+////			System.out.println(microManager.size());
+//			// no compute in this case: 0 = none, 1 = modified, 2 = inserted
+//			// in case of "no change..."
+//				double maxOverlap = 0;
+//				Integer maxKey = -1;			
+//				Set<Integer> macroKeySet = macroHashmap.keySet();		
+//				for (Integer macroKey: macroKeySet) {
+//					ElementManager macroManager = macroHashmap.get(macroKey);
+//
+//					// compute the similarity
+//					if (macroManager == null) System.out.println(macroKey);
+//					double value = calculator.CosineSimilarity(microManager, macroManager);
+//
+//					if (value > maxOverlap) {
+//						maxOverlap = value;
+//						maxKey = macroKey;
+//					}
+//				}			
+//
+//				Integer parentKey = -1;
+//				if (maxOverlap >= threshold) {
+//					// update: merge this with existing ones...
+//					if (maxKey == -1) continue;
+//					ElementManager maxManager = macroHashmap.get(maxKey);								
+//					maxManager.merge(microManager);
+//
+//					maxManager.addChild();
+//					parentKey = maxKey;
+//
+//					maxManager.modified();
+//					macroHashmap.put(parentKey, maxManager);
+//
+//					// update an indexer
+//					if (maxManager.getChildren() == 2) {
+//						// 새 자료 추가
+//						insort2Index(maxKey, maxManager, macroClusterIndexer);
+//					}
+//					else if (maxManager.getChildren() > 2) {
+//						// 기존 자료 삭제
+//						deletefromIndex(maxKey, macroClusterIndexer);
+//						// 새 자료 추가
+//						insort2Index(maxKey, maxManager, macroClusterIndexer);
+//					}
+//				}
+//				else {
+//					// insert: create a new one...
+//					newMacroManager = new ElementManager();
+//					newMacroManager.merge(microManager);
+//
+//					newMacroManager.addChild();								
+//					parentKey = macroHashmap.size() + 1;
+//
+//					newMacroManager.inserted();
+//					macroHashmap.put(parentKey, newMacroManager);
+//					// insert no indexer
+//				}
+//
+//				microManager.setParentKey(parentKey);					
+//		}
+//		v.clear();
+//		return macroClusterIndexer;
+//	}
 	
 }
