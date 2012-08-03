@@ -1,4 +1,4 @@
-package renewed.test.reader;
+package navclus.recommendation;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -52,16 +52,16 @@ public class SampleFileTester {
 				microVector.println();
 				microVector.group();
 				microVector.printGroup();			
-/*
+
 				// create macro-clusters		
 				macroClusterIndexer = macroClusterManager.create(microClusterManager, microVector, macroClusterIndexer);
 				macroClusterManager.printSummary();
 
 				// creating recommendations ... 추천ㅇ을 발생시키고 있음
-				(new XMLSampleRecommender()).recommend(sampleDirectory, list[i+1], macroClusterIndexer, macroClusterManager, totalResults);
+//				(new XMLSampleRecommender()).recommend(sampleDirectory, list[i+1], macroClusterIndexer, macroClusterManager, totalResults);
 
 				//					macroClusterIndexer.print();
-									System.out.println(macroClusterIndexer.getNumberOfDocuments());
+//									System.out.println(macroClusterIndexer.getNumberOfDocuments());
 				//					macroClusterManager.printClusters();
 
 				// clear
@@ -69,7 +69,7 @@ public class SampleFileTester {
 				microVector.clear();
 				macroClusterIndexer.clear();
 				macroClusterManager.clear();
-*/				
+				
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
