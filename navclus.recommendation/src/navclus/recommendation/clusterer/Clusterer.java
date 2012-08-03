@@ -1,4 +1,4 @@
-package navclus.recommendation;
+package navclus.recommendation.clusterer;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -11,26 +11,7 @@ import renewed.lib.cluster.microclusters.MicroVector;
 
 public class Clusterer {
 
-	static String dataDirectory = "D:\\MylynData\\Data\\Sample";
-
-	static int iThreshold = 3 ;
-
-	public static void main(String argv[])  {
-		
-		// cluster navigation sequences...
-		MacroClusterIndexer macroClusterIndexer = cluster(dataDirectory);
-		
-		// creating recommendations ... 추천ㅇ을 발생시키고 있음
-		(new XMLSampleRecommender()).recommend(dataDirectory, "s12-monitor-history.xml", macroClusterIndexer);
-		
-/*
-				//					macroClusterIndexer.print();
-//									System.out.println(macroClusterIndexer.getNumberOfDocuments());
-				//					macroClusterManager.printClusters();			
-*/
-	}
-	
-	public static MacroClusterIndexer cluster(String dataDirectory) {
+	public MacroClusterManager cluster(String dataDirectory) {
 		try {
 			File file = new File(dataDirectory); 
 			String[] list = file.list(new FilenameFilter() 
@@ -44,7 +25,6 @@ public class Clusterer {
 
 			MicroClusterManager microClusterManager = new MicroClusterManager();	
 			MacroClusterManager macroClusterManager = new MacroClusterManager();
-			MacroClusterIndexer macroClusterIndexer = new MacroClusterIndexer();
 			MicroVector microVector = new MicroVector();
 
 			for (int i = 0; i < 12; i++) {				
@@ -63,10 +43,10 @@ public class Clusterer {
 //				microVector.printGroup();			
 
 				// create macro-clusters		
-				macroClusterIndexer = macroClusterManager.create(microClusterManager, microVector, macroClusterIndexer);				
+				macroClusterManager.create(microClusterManager, microVector);				
 //				macroClusterManager.printSummary();
 				
-				return macroClusterIndexer;
+				return macroClusterManager;
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;

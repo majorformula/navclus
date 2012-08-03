@@ -16,13 +16,20 @@ import renewed.lib.cluster.similaritymatrix.CosineSimilarityCalculator;
 
 public class MacroClusterManager {
 	
-	HashMap<Integer, ElementManager> macroHashmap = new HashMap<Integer, ElementManager> ();
+	HashMap<Integer, ElementManager> macroHashmap = new HashMap<Integer, ElementManager> ();	
 	ElementManager newMacroManager ;
 	
 	Vector<ElementManager> v = new Vector<ElementManager>();
+	
+	public MacroClusterIndexer getMacroClusterIndexer() {
+		return macroClusterIndexer;
+	}
 
-	public void clear() {
+	MacroClusterIndexer macroClusterIndexer = new MacroClusterIndexer();
+	
+public void clear() {
 		macroHashmap.clear();
+		macroClusterIndexer.clear();
 	}
 
 	public void clearStatus() {			
@@ -33,7 +40,7 @@ public class MacroClusterManager {
 		}
 	}
 
-	public void deletefromIndex(Integer parentKey, MacroClusterIndexer macroClusterIndexer) {
+	public void deletefromIndex(Integer parentKey) {
 		macroClusterIndexer.delete(parentKey);
 		macroClusterIndexer.decreaseNumberOfDocuments(); // #doc --
 	}
@@ -46,7 +53,7 @@ public class MacroClusterManager {
 		return macroHashmap;
 	}
 	
-	public void insort2Index(Integer parentKey, ElementManager maxManager, MacroClusterIndexer macroClusterIndexer) {
+	public void insort2Index(Integer parentKey, ElementManager maxManager) {
 		for (Element element: maxManager.getVector()) {
 			macroClusterIndexer.insort(element.getName(), parentKey, element.getCount());
 		}
@@ -131,12 +138,13 @@ public class MacroClusterManager {
 		}
 		return recommendManager;
 	}
+	
 
 	public int size() {
 		return macroHashmap.size();
 	}
 		
-	public MacroClusterIndexer create(MicroClusterManager microClusterManager, MicroVector microVector, MacroClusterIndexer macroClusterIndexer) {
+	public MacroClusterIndexer create(MicroClusterManager microClusterManager, MicroVector microVector) {
 		for (int j = 0; j < microVector.getGroupVector().size(); j++) {
 //			System.out.println("Group: " + j);
 			newMacroManager = new ElementManager();
@@ -148,7 +156,7 @@ public class MacroClusterManager {
 			}
 //			System.out.println();
 			macroHashmap.put(j, newMacroManager);
-			insort2Index(j, newMacroManager, macroClusterIndexer);
+			insort2Index(j, newMacroManager);
 			// insert no indexer
 		}		
 		return macroClusterIndexer;		

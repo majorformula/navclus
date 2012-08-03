@@ -154,18 +154,12 @@ public class MacroClusterIndexer {
 	public SortedLinkedList<DocListNode> retrieve(LinkedList<String> words) {
 
 		SortedLinkedList<DocListNode> answer = hashmap.get(words.get(0));
-		//		print("", answer);
 		for (int i = 1; i < words.size(); i++) {
 			SortedLinkedList<DocListNode> next = hashmap.get(words.get(i));
-			//			print("", next);
-
 			SortedLinkedList<DocListNode> tmpAnswer = merge(answer, next);
-			//			print("answer", tmpAnswer);	
-
 			answer = tmpAnswer;
 		}
-		answer =  checkSimilarity(answer, words);
-				
+		answer =  checkSimilarity(answer, words);				
 		return answer;
 	}
 

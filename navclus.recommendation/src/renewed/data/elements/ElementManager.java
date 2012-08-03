@@ -280,8 +280,8 @@ public class ElementManager {
 			Element node = (Element) iterator.next();
 			if (node.getCount() >= iThreshold)
 				node.println();
-			else
-				break;
+//			else
+//				break;
 		}
 	}
 	
@@ -290,19 +290,40 @@ public class ElementManager {
 
 		int cnt = 0;
 		while (iterator.hasNext()) {
-			Element element = (Element) iterator.next();
-			if (element.getCount() >= iThreshold) {
-				if (element.isEdit()) {
-					element.println();
-					cnt++;
-				}
+			Element node = (Element) iterator.next();
+			if (node.getCount() >= iThreshold) {
+				node.println();
+				cnt++;
 			}
-			else
-				break;
+//			else
+//				break;
+			
 			if (cnt >= iCount)
 				break;
 		}
 	}
+	
+	
+	
+	
+//	public void println(int iThreshold, int iCount) {
+//		Iterator iterator = vector.iterator();
+//
+//		int cnt = 0;
+//		while (iterator.hasNext()) {
+//			Element element = (Element) iterator.next();
+//			if (element.getCount() >= iThreshold) {
+//				if (element.isEdit()) {
+//					element.println();
+//					cnt++;
+//				}
+//			}
+////			else
+////				break;
+//			if (cnt >= iCount)
+//				break;
+//		}
+//	}
 
 	public int size() {
 		return vector.size();
