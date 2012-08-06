@@ -20,7 +20,7 @@ import renewed.evaluation.answer.SetOperator;
 import renewed.evaluation.answer.TotalResults;
 import renewed.in.reader.StructureHandlePrinter;
 import renewed.invertedindex.DocListNode;
-import renewed.invertedindex.InvertedIndexer;
+import renewed.invertedindex.MacroClusterIndexer;
 import renewed.invertedindex.SortedLinkedList;
 import renewed.lib.cluster.macroclusters.MacroClusterManager;
 import renewed.lib.cluster.microclusters.TeamTracksMicroClusterManager;
