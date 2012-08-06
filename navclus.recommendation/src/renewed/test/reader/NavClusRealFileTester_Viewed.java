@@ -8,7 +8,7 @@ import java.io.PrintStream;
 import renewed.evaluation.answer.EditHitTotalResults;
 import renewed.evaluation.answer.TotalResults;
 import renewed.in.reader.RealTxTSegmenter;
-import renewed.invertedindex.InvertedIndexer;
+import renewed.invertedindex.MacroClusterIndexer;
 import renewed.lib.cluster.macroclusters.MacroClusterManager;
 import renewed.lib.cluster.microclusters.MicroClusterManager;
 import renewed.lib.cluster.microclusters.MicroVector;
@@ -42,7 +42,7 @@ public class NavClusRealFileTester_Viewed {
 
 			MicroClusterManager microClusterManager = new MicroClusterManager();	
 			MacroClusterManager macroClusterManager = new MacroClusterManager();
-			InvertedIndexer macroClusterIndexer = new InvertedIndexer();
+
 			MicroVector microVector = new MicroVector();
 			
 			for (int i = 0; i < list.length - 1; i++) {						
@@ -61,12 +61,12 @@ public class NavClusRealFileTester_Viewed {
 //					microVector.printGroup();
 										
 					// MACRO-CLUSTERING
-					macroClusterIndexer = macroClusterManager.create(microClusterManager, microVector, macroClusterIndexer);
+					macroClusterManager.create(microClusterManager, microVector);
 //					macroClusterIndexer = macroClusterManager.update(microClusterManager, 0.5, macroClusterIndexer);
 //					macroClusterManager.printSummary();			
 					
 					// RECOMMENDATON
-					(new NavClusTxTRecommender()).recommend(sampleDirectory, list[i+1], macroClusterIndexer, macroClusterManager, totalResults);						
+					(new NavClusTxTRecommender()).recommend(sampleDirectory, list[i+1], macroClusterManager.getMacroClusterIndexer(), macroClusterManager, totalResults);						
 //					outfile.println(totalResults.calculatePrecision() + ", " + totalResults.calculateRecall());
 //					System.out.println("precision:	" + totalResults.calculatePrecision());
 //					System.out.println("recall:		" + totalResults.calculateRecall());
@@ -75,7 +75,7 @@ public class NavClusRealFileTester_Viewed {
 					// clear
 					microClusterManager.updateIntertedStatus();
 					microVector.clear();
-					macroClusterIndexer.clear();
+
 					macroClusterManager.clear();
 			}
 			totalResults.printTotalResults(outfile);

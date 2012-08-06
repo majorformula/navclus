@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 import renewed.invertedindex.DocListNode;
-import renewed.invertedindex.InvertedIndexer;
+import renewed.invertedindex.MacroClusterIndexer;
 import renewed.invertedindex.SortedLinkedList;
 
 
@@ -29,7 +29,7 @@ public class TestInvertedIndex {
 			}
 		}
 	*/	
-		InvertedIndexer indexer = new InvertedIndexer();
+		MacroClusterIndexer indexer = new MacroClusterIndexer();
 		indexer.insort("one", 0, 1);
 		indexer.insort("fish", 0, 3);
 		indexer.insort("two", 0, 1);		
